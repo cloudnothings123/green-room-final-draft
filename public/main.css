@@ -16,6 +16,10 @@ body {
     display: none;
 }
 
+.care {
+    display: none;
+}
+
 .fans,
 .bands {
     background: none;
@@ -86,8 +90,7 @@ h1 {
 }
 
 @media only screen 
-    and (device-width: 390px) 
-    and (device-height: 844px) 
+    and (device-width: 480px) 
     and (-webkit-device-pixel-ratio: 3) { 
 
         .header .leftlinks {
