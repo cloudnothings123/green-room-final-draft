@@ -8,6 +8,11 @@ body {
     padding: 0;
 }
 
+.work, .green {
+    width: 50%;
+    margin-left: 25%;
+}
+
 .detail {
     display: none;
 }
@@ -72,7 +77,7 @@ h1 {
 .maininfo {
     text-align: center;
     width: 60%;
-    margin-left: 20vw;
+    margin-left: 5em;
     margin-top: 5vw;
     font-size: 1.2em;
     position: relative;
@@ -174,6 +179,11 @@ h1 {
             width: 50%;
             margin-left: 45%;
             margin-top: 10em;
+        }
+
+        .green {
+            width: 90%;
+            margin-left: 1em;
         }
 
         .detail {
