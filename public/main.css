@@ -89,9 +89,7 @@ h1 {
     display: none;
 }
 
-@media only screen 
-    and (device-width: 480px) 
-    and (-webkit-device-pixel-ratio: 3) { 
+@media screen and (max-width: 480px)  { 
 
         .header .leftlinks {
             display: none;
