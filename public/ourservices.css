@@ -1,0 +1,76 @@
+body {
+    background: #979797;
+    color: white;
+    font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.background-image {
+    background-image: url('assets/plane.png');
+    background-repeat: no-repeat;
+    background-position: 55% 70%;
+    background-size: 750px;
+}
+
+.tophalf, .bottomhalf {
+    display: flex;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    background: rgba(70,65,65,.9);
+    border-radius: 10px;
+    box-shadow: 4px 4px rgba(70,65,80,.5);
+    padding: 10px;
+}
+
+.bottomhalf {
+    gap: 100px;
+    margin-left: 250px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+.get {
+    background: none;
+    color: white;
+}
+
+.detail-top {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    background: rgba(70,65,65,.9);
+    border-radius: 10px;
+    padding: 30px 60px;
+    box-shadow: 4px 4px rgba(70,65,80,.5);
+}
+
+.how-it-works {
+    margin-left: 80%;
+    position: absolute;
+    top: 25%;
+}
+
+.tophalf {
+    gap: 500px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+header .logo {
+    height: 118px;
+    margin-top: 6px;
+}
+
+.header {
+    border-bottom: solid 1px #B6CC38;
+}

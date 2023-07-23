@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: #979797;
+    color: white;
+    font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.touch {
+    margin-bottom: 5%;
+    margin-top: 1%;
+    margin-left: 12.5%;
+}
+
+h1 {
+    margin-left: 3%;
+}
+
+header .logo {
+    height: 118px;
+    margin-top: 6px;
+}
+
+.header {
+    border-bottom: solid 1px #B6CC38;
+}

@@ -1,0 +1,191 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: #464141;
+    color: white;
+    font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.detail {
+    display: none;
+}
+
+.door {
+    display: none;
+}
+
+.fans,
+.bands {
+    background: none;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 58vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1vw;
+    font-weight: 100;
+}
+
+.bodyh1 {
+    margin-top: 4vw;
+}
+
+.lefth1 {
+    margin-right: 20vw;
+}
+
+.righth1 {
+    margin-left: 35vw;
+}
+
+.forlinks {
+    display: flex;
+    justify-content: center;
+    gap: 3.6vw;
+    margin-top: 16.8vw;
+    font-size: 1.4em;
+}
+
+.forbands,
+.forfans {
+    background: #B6CC38;
+    padding: 2vw 4vw;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.maininfo {
+    text-align: center;
+    width: 60%;
+    margin-left: 20vw;
+    margin-top: 5vw;
+    font-size: 1.2em;
+    position: relative;
+}
+
+.backgroundguitar {
+    position: absolute;
+    left: 43vw;
+    z-index: -1;
+    bottom: -29vw;
+}
+
+.receive {
+    display: none;
+}
+
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+
+        .header .leftlinks {
+            display: none;
+        }
+
+        .header .rightlinks {
+            display: none;
+        }
+
+        .header {
+            height: 200px;
+        }
+
+        .header .middlelinks {
+            margin-left: 70px;
+            margin-top: 20px;
+        }
+
+        .header .logo {
+            height: 130px;
+            width: 170px;
+        }
+
+        .forlinks {
+            display: flex;
+            justify-content: center;
+            gap: 3.6vw;
+            margin-top: 2em;
+            font-size: .5em;
+            margin-bottom: 2em;
+        }
+
+        .backgroundguitar {
+            display: none;
+        }
+
+        .infos {
+            display: flex;
+            flex-direction: column-reverse;
+            background: #1E1E1E;
+        }
+
+        h1 {
+            font-size: 1em;
+            width: 75%;
+            font-weight: 400;
+        }
+
+        .maininfo {
+            font-size: .8em;
+            font-weight: 100;
+            margin-left: 45%;
+            width: 50%;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+            margin-top: 100em;
+            font-size: .8em;
+        }
+
+        .footer .rightfooter {
+            margin-left: 60%;
+        }
+
+        .footer .middlefooter {
+            margin-left: .5em;
+        }
+
+        .work {
+            display: none;
+        }
+
+        .door {
+            display: inline;
+        }
+
+        .receive {
+            display: block;
+            width: 50%;
+            margin-left: 45%;
+            margin-top: 10em;
+        }
+
+        .detail {
+            display: block;
+            width: 50%;
+            margin-left: -12em;
+            margin-top: 10em;
+        }
+
+        .care {
+            display: block;
+            width: 50%;
+            margin-top: 10em;
+        }
+
+    }

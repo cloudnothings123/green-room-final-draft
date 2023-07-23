@@ -1,0 +1,26 @@
+body {
+    background: #464141;
+    color: white;
+    font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.jeff {
+    color: white;
+    background: none;
+}
+
+.home {
+    margin-left: 85%;
+}
+
+header .logo {
+    height: 118px;
+    margin-top: 6px;
+}
