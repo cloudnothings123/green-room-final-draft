@@ -97,6 +97,12 @@ h1 {
 
 @media screen and (max-width: 480px)  { 
 
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
         .header .leftlinks {
             display: none;
         }
@@ -117,6 +123,7 @@ h1 {
         .header .logo {
             height: 130px;
             width: 170px;
+            padding: 0;
         }
 
         .forlinks {
@@ -126,10 +133,14 @@ h1 {
             margin-top: 2em;
             font-size: .5em;
             margin-bottom: 2em;
+            padding: 0;
         }
 
         .backgroundguitar {
             display: none;
+            width: 0;
+            margin: 0;
+            padding: 0;
         }
 
         .infos {

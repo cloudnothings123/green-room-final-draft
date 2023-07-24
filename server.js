@@ -13,6 +13,7 @@ const mainRoutes = require('./routes/main')
 const ourBandRoutes = require('./routes/ourband')
 const ourServicesRoutes = require('./routes/ourservices')
 const privacyRoutes = require('./routes/privacy')
+const realOurServicesRoutes = require('./routes/realourservices')
 //recognizing dotenv file
 require('dotenv').config({path: './config/.env'})
 //setting ejs as the view format
@@ -29,5 +30,6 @@ app.use('/impressum', impressumRoutes)
 app.use('/ourband', ourBandRoutes)
 app.use('/ourservices', ourServicesRoutes)
 app.use('/privacy', privacyRoutes)
+app.use('/realourservices', realOurServicesRoutes)
 //connecting to port
 app.listen(process.env.PORT, () => console.log('Server running'))

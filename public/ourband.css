@@ -60,7 +60,7 @@ body {
     margin-left: 100px;
 }
 
-.kempa:hover .information {
+.name-kempa:hover .information {
     position: absolute;
     display: block;
     border: 1px solid #D9D9D9;
@@ -124,4 +124,120 @@ body {
 header .logo {
     height: 118px;
     margin-top: 6px;
+}
+
+@media screen and (max-width: 480px)  { 
+
+    html, body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .name-column-two {
+        margin-top: 0em;
+        gap: 0;
+    }
+
+    .name-jeff {
+        margin-left: 2em;
+    }
+
+    .header .leftlinks {
+        display: none;
+    }
+
+    .header .rightlinks {
+        display: none;
+    }
+
+    .header {
+        height: 200px;
+    }
+
+    .header .middlelinks {
+        margin-left: 85px;
+        margin-top: 20px;
+    }
+
+    .header .logo {
+        height: 130px;
+        width: 170px;
+        padding: 0;
+    }
+
+    .header-h1 {
+        transform: rotate(360deg);
+        font-size: 1em;
+        text-align: right;
+        margin-right: 2em;
+    }
+
+    .three-columns img {
+        height: 3em;
+    }
+
+    .whitney {
+        margin-left: 8em;
+    }
+
+    .whitney h2, .name-jeff h2 {
+        display: flex;
+        gap: 1em;
+    }
+
+    .whitney p, .name-jeff p {
+        margin-top: -2em;
+    }
+
+    .information-right p {
+        margin: 0;
+    }
+
+    .background-guitar {
+        display: none;
+    }
+
+    .name-kempa {
+        margin-left: 2em;
+    }
+
+    .name-pete {
+        margin-left: 8em;
+    }
+
+    .name-jesse {
+        margin-left: 2em;
+    }
+
+    .whitney {
+        margin-left: 8em;
+    }
+
+    .three-columns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name-column-one {
+        margin-top: -18em;
+        font-size: 1em;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 15em;
+        margin-top: 5em;
+        font-size: .8em;
+    }
+
+    .footer .rightfooter {
+        margin-left: 60%;
+    }
+
+    .footer .middlefooter {
+        margin-left: .5em;
+    }
+
 }
