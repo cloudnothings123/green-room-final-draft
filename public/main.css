@@ -165,8 +165,8 @@ h1 {
         .footer {
             display: flex;
             flex-direction: column;
-            height: 300px;
-            margin-top: 100em;
+            height: 200px;
+            margin-top: 72em;
             font-size: .8em;
         }
 

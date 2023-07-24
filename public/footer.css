@@ -1,4 +1,6 @@
-/* footer */
+.drop-line {
+    display: none;
+}
 
 footer {
     background: #000000;
@@ -51,4 +53,30 @@ footer {
 
 .rightfooter li a {
     background: none;
+}
+
+@media screen and (max-width: 480px)  {
+    .drop-line {
+        border: 1px solid #B6CC38;
+        background: #B6CC38;
+        width: 75%;
+        margin: auto;
+        margin-top: -2em;
+        font-size: 1.8em;
+        color: black;
+        padding: 1.5em .5em;
+        border-radius: 1em;
+        text-transform: uppercase;
+        text-align: center;
+        display: inline;
+    }
+
+    .footer {
+        height: 250px;
+    }
+
+    .dropmail {
+        background: none;
+        margin-left: 20%;
+    }
 }
