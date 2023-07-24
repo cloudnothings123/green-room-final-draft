@@ -8,6 +8,14 @@ body {
     padding: 0;
 }
 
+.hidden {
+    display: none;
+}
+
+.nothidden {
+    display: inline-block;
+}
+
 .work, .green {
     width: 50%;
     margin-left: 25%;
@@ -147,6 +155,14 @@ h1 {
             display: flex;
             flex-direction: column-reverse;
             background: #1E1E1E;
+        }
+
+        .hidden {
+            display: inline-block;
+        }
+        
+        .nothidden {
+            display: none;
         }
 
         h1 {
