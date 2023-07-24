@@ -7,6 +7,14 @@ body {
     margin: 0;
 }
 
+.background-guitar {
+    position: absolute;
+    margin-top: -25em;
+    transform: rotate(10deg);
+    margin-left: 30em;
+    z-index: -1;
+}
+
 .three-columns a {
     background: none;
     display: inline;

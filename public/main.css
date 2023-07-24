@@ -46,11 +46,12 @@ h1 {
 }
 
 .bodyh1 {
-    margin-top: 4vw;
+    margin-top: 1em;
 }
 
 .lefth1 {
     margin-right: 20vw;
+    margin-top: 3em;
 }
 
 .righth1 {

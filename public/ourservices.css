@@ -43,6 +43,21 @@ body {
     color: white;
 }
 
+.guitar-image {
+    position: absolute;
+    margin-top: -100em;
+    margin-left: 10em;
+    z-index: -1;
+}
+
+.guitar-image-bottom {
+    position: absolute;
+    transform: rotate(85deg);
+    margin-top: 5em;
+    z-index: -1;
+    margin-left: 60em;
+}
+
 .detail-top {
     display: flex;
     width: 40%;
