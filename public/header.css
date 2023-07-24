@@ -1,5 +1,13 @@
 /* header */
 
+.burgerimage {
+    display: none;
+}
+
+.dropmenu {
+    display: none;
+}
+
 header {
     background: #000000;
     margin: 0;
@@ -52,4 +60,25 @@ a {
 
 .middlelinks a {
     background: none;
+}
+
+@media screen and (max-width: 480px)  { 
+
+    .burgerimage {
+        position: absolute;
+        display: block;
+        left: 2em;
+        top: 1em;
+    }
+
+    .burgermenu {
+        width: 4em;
+        height: 2em;
+    }
+
+    .burgerimage:hover .dropmenu {
+        display: block;
+    }
+
+
 }
