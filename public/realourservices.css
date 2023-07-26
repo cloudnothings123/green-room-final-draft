@@ -276,12 +276,12 @@ header .logo {
     .support,
     .experiences,
     .advice {
-        background-color:#E1D9D1;
+        background-color:white;
         color: black;
     }
 
     h1 {
-        background-color:#E1D9D1;
+        background-color:white;
         box-shadow: 0px 1px 1px 1px black;
     }
 
@@ -391,7 +391,7 @@ header .logo {
     .advice,
     .support,
     .accomodations {
-        margin-left: -5em;
+        margin-left: 0em;
     }
 
     .transportation {
