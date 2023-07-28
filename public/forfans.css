@@ -45,6 +45,7 @@ header .logo {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .header .leftlinks {
@@ -73,8 +74,8 @@ header .logo {
     .footer {
         display: flex;
         flex-direction: column;
-        height: 200px;
-        margin-top: 5em;
+        height: 100px;
+        margin-top: 3em;
         font-size: .8em;
     }
 
@@ -88,6 +89,12 @@ header .logo {
 
     p {
         font-size: 1.1em;
+        margin-left: 3.5em;
+        margin-top: 2em;
+    }
+
+    .footer .drop-line {
+        display: none;
     }
 
     .click {

@@ -157,14 +157,6 @@ h1 {
             background: #1E1E1E;
         }
 
-        .hidden {
-            display: inline-block;
-        }
-        
-        .nothidden {
-            display: none;
-        }
-
         h1 {
             font-size: 1em;
             width: 75%;
@@ -173,16 +165,18 @@ h1 {
 
         .maininfo {
             font-size: .8em;
-            font-weight: 100;
-            margin-left: 45%;
-            width: 50%;
+            font-weight: 200;
+            width: 100%;
+            margin: 0;
+            margin-left: .1em;
+            margin-top: 1em;
         }
 
         .footer {
             display: flex;
             flex-direction: column;
             height: 200px;
-            margin-top: 72em;
+            margin-top: 20em;
             font-size: .8em;
         }
 
@@ -192,39 +186,6 @@ h1 {
 
         .footer .middlefooter {
             margin-left: .5em;
-        }
-
-        .work {
-            display: none;
-        }
-
-        .door {
-            display: inline;
-        }
-
-        .receive {
-            display: block;
-            width: 50%;
-            margin-left: 45%;
-            margin-top: 10em;
-        }
-
-        .green {
-            width: 90%;
-            margin-left: 1em;
-        }
-
-        .detail {
-            display: block;
-            width: 50%;
-            margin-left: -12em;
-            margin-top: 10em;
-        }
-
-        .care {
-            display: block;
-            width: 50%;
-            margin-top: 10em;
         }
 
     }

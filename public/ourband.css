@@ -240,6 +240,11 @@ header .logo {
         margin-left: .5em;
     }
 
+    .information:hover,
+    .information-right:hover {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
