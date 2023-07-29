@@ -22,7 +22,7 @@ article {
 
 header .logo {
     height: 118px;
-    margin-top: 6px;
+    margin-top: 1em;
 }
 
 @media screen and (max-width: 480px)  {

@@ -1,4 +1,6 @@
-
+#menu-toggle {
+  display: none;
+}
 
 .topnav, .menu {
     display: none;
@@ -14,7 +16,7 @@ header {
     margin: 0;
     padding: 0;
     height: 11vw;
-    margin-top: -1vw;
+    margin-top: 0vw;
     border-bottom: solid 1px gray;
 }
 
@@ -36,13 +38,13 @@ a {
 
 .logo {
     height: 18vw;
-    margin-top: 1.5vw;
+    margin-top: 1.5em;
 }
 
 .leftlinks {
     display: flex;
     gap: 2.5vw;
-    margin-top: 3.5vw;
+    margin-top: 2.5em;
     font-size: 1.5em;
     margin-left: 1.4vw;
 }
@@ -50,7 +52,7 @@ a {
 .rightlinks {
     display: flex;
     gap: 2.5vw;
-    margin-top: 3.5vw;
+    margin-top: 2.5em;
     margin-right: 8.8em;
     font-size: 1.5em;
 }
