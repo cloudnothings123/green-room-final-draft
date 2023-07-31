@@ -5,17 +5,36 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .background-image {
     background-image: url('assets/plane.png');
     background-repeat: no-repeat;
-    background-position: 55% 70%;
+    background-position: 55% 80%;
     background-size: 750px;
 }
 
 .tophalf, .bottomhalf {
     display: flex;
+}
+
+.bottom-top p {
+    margin-left: 17em;
+    width: 40%;
+    text-align: center;
+}
+
+.detail-top button {
+    background:#B6CC38;
+    padding: 2em;
+    font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 1em;
+    border-radius: 1em;
+}
+
+.detail-top a {
+    background: none;
 }
 
 .detail {
@@ -53,7 +72,7 @@ body {
 .guitar-image-bottom {
     position: absolute;
     transform: rotate(85deg);
-    margin-top: 5em;
+    margin-top: 22em;
     z-index: -1;
     margin-left: 60em;
 }
