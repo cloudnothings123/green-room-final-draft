@@ -27,12 +27,12 @@ h1 {
 }
 
 .sideways {
-    font-size: 2em;
+    font-size: 3.5em;
     position: absolute;
     transform: rotate(90deg);
     color: white;
-    left: 40em;
-    top: 7em;
+    left: 22em;
+    top: 3.5em;
 }
 
 .ourservicesguitar {
@@ -194,11 +194,11 @@ header .logo {
     }
 
     .sideways {
-        font-size: 1em;
+        font-size: 2em;
         transform: rotate(-360deg);
         color: white;
         left: 1em;
-        top: 12em;
+        top: 5.5em;
     }
 
     h1 {

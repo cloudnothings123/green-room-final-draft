@@ -70,9 +70,10 @@ body {
 }
 
 .how-it-works {
-    margin-left: 80%;
+    margin-left: 75%;
     position: absolute;
     top: 25%;
+    font-size: 3em;
 }
 
 .tophalf {
@@ -89,6 +90,16 @@ header .logo {
 .header {
     border-bottom: solid 1px #B6CC38;
 }
+
+@media screen and (max-width: 375px)  {
+
+    .how-it-works {
+        top: 33%;
+        font-size: 2em;
+    }
+}
+
+
 
 @media screen and (max-width: 480px)  { 
 
@@ -158,7 +169,8 @@ header .logo {
 
     .how-it-works {
         margin-left: 3.2em;
-        margin-top: 0;
+        margin-top: 0em;
+        font-size: 2em;
     }
 
     .detail {
