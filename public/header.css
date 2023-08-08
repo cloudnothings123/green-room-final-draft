@@ -1,226 +1,80 @@
-#menu-toggle {
+body {
+  font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.dropdown {
   display: none;
 }
 
-.topnav, .menu {
-    display: none;
-    margin: 0;
+.navbar-btn {
+  padding: .25em !important;
+  background: #D9D9D9;
 }
 
-nav {
-  margin-top: -1em;
+.btn-lg {
+  color: black;
 }
 
-header {
-    background: #000000;
-    margin: 0;
-    padding: 0;
-    height: 11vw;
-    margin-top: 0vw;
-    border-bottom: solid 1px gray;
+#dropdownMenuButton {
+  background: #B6CC38;
+  margin: .5em;
+  padding: .5em;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.navbar .container-fluid button a {
+  color: black;
+  font-weight: 400;
+  font-size: 1.3em;
 }
 
-a {
-    display: flex;
-    text-decoration: none;
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em;
+  width: 100%;
+  background: black;
+}
+
+.logo-full {
+  width: 50%;
+}
+
+.navbar {
+  border-bottom: solid 1px gray !important;
+}
+
+.navbar-left {
+  margin-left: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+  .dropdown {
+    display: inline;
+  }
+
+  .dropdown-menu ul {
+    margin-left: 1em;
+  }
+
+  .dropdown-menu a {
     color: black;
-    background: #D9D9D9;
-    border-radius: 5px;
-    padding: .35vw;
-}
+  }
 
-.logo {
-    height: 18vw;
-    margin-top: 1.5em;
-}
+  .background {
+    background: black;
+  }
 
-.leftlinks {
-    display: flex;
-    gap: 2.5vw;
-    margin-top: 2.5em;
-    font-size: 1.5em;
-    margin-left: 1.4vw;
-}
+  .navbar {
+    display: none;
+  }
 
-.rightlinks {
-    display: flex;
-    gap: 2.5vw;
-    margin-top: 2.5em;
-    margin-right: 8.8em;
-    font-size: 1.5em;
-}
-
-.ourservices {
-  margin-left: 3em;
-}
-
-.logo {
-    margin-right: 3em;
-}
-
-.middlelinks a {
-    background: none;
-}
-
-@media screen and (max-width: 480px)  { 
-
-    #burgerimage {
-        position: absolute;
-        display: block;
-        left: 2em;
-        top: 1em;
-    }
-
-    .burgermenu {
-        width: 4em;
-        height: 2em;
-    }
-
-    #burgerimage:hover .dropmenu {
-        display: flex;
-        flex-direction: column;
-        color: black;
-        width: 100%;
-        font-size: 2em;
-        background: #B6CC38;
-        margin-top: 20em;
-    }
-
-    .top-nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #00BAF0;
-        background: linear-gradient(to left, black, black);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        color: #FFF;
-        height: 50px;
-        padding: 1em;
-        position: absolute;
-      }
-      
-      .menu {
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        z-index: 1;
-      }
-      
-      .menu > li {
-        margin: 0 1rem;
-        overflow: hidden;
-        text-align: center;
-      }
-      
-      .menu-button-container {
-        display: none;
-        height: 100%;
-        width: 50px;
-        cursor: pointer;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      
-      #menu-toggle {
-        display: none;
-      }
-      
-      .menu-button,
-      .menu-button::before,
-      .menu-button::after {
-        display: block;
-        background-color: #fff;
-        position: absolute;
-        height: 4px;
-        width: 30px;
-        transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-        border-radius: 2px;
-      }
-      
-      .menu-button::before {
-        content: '';
-        margin-top: -8px;
-      }
-      
-      .menu-button::after {
-        content: '';
-        margin-top: 8px;
-      }
-      
-      #menu-toggle:checked + .menu-button-container .menu-button::before {
-        margin-top: 0px;
-        transform: rotate(405deg);
-      }
-      
-      #menu-toggle:checked + .menu-button-container .menu-button {
-        background: rgba(255, 255, 255, 0);
-      }
-      
-      #menu-toggle:checked + .menu-button-container .menu-button::after {
-        margin-top: 0px;
-        transform: rotate(-405deg);
-      }
-
-      nav {
-        margin-top: 0em;
-      }
-      
-      @media (max-width: 700px) {
-        .menu-button-container {
-          display: flex;
-        }
-        .menu {
-          position: absolute;
-          top: 0;
-          margin-top: 50px;
-          left: 0;
-          flex-direction: column;
-          width: 100%;
-          justify-content: center;
-          align-items: center;
-        }
-        #menu-toggle ~ .menu li {
-          height: 0;
-          margin: 0;
-          padding: 0;
-          border: 0;
-          transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-        }
-        #menu-toggle:checked ~ .menu li {
-          border: 1px solid #333;
-          height: 2.5em;
-          padding: 0.5em;
-          transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-        }
-        .menu > li {
-          display: flex;
-          justify-content: center;
-          margin: 0;
-          padding: 0.5em 0;
-          width: 100%;
-          color: white;
-          background-color: #222;
-        }
-        .menu > li:not(:last-child) {
-          border-bottom: 1px solid #444;
-        }
-
-        .menu a {
-            background: none;
-            color: white;
-        }
-
-        
-    }
+  .logo-full {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
 }

@@ -9,55 +9,51 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
 <body class="pattern">
     <%- include('partials/header') %>
     <img class="ourservicesguitar" src="/assets/ourservicesguitar.png"></img>
-    <h2 class="sideways">our services</h2>
-    <div class="h1-rectangle" src="/assets/h1rectangle.png"></div>
-    <h1>We specialize in crafting unforgettable travel experiences for independent bands, performing artists, and fans alike. Our team leverages decades of touring, performance, and travel experience to ensure seamless journeys for our clients.
-    </h1>
-    <div class="bothsides">
-    <div class="left">
-        <img class="accomodation-circle" src="/assets/accomodationcircle.png"></img>
-        <div class="accomodations">
-        <h3>Accommodations</h3>
-        <span>We understand that everyone has different needs and preferences when it comes to accommodations. Whether you´re staying with friends, sharing an apartment, or looking for a five star experience, we’ve got you covered. With access to travel-agent exclusive inventory and relationships with hotels, we can find the right place and rate for everyone.</span>
-        </div>
-        <img class="transportation-circle" src="/assets/transportationcircle.png"></img>
-        <div class="transportation">
-        <h3>Transportation</h3>
-        <span><b>Air Travel:</b> With an ever-growing list of airline partners and exclusive rates, we can help you find the best route at the best price for your trip. <br>
+    <div class="row">
+        <div class="col-12-xs text-center">
+            <h2 class="text-left services">our services</h2>
+            <img class="h1-rectangle" src="/assets/h1rectangle.png"></img>
+            <h1 class="h3 center-block">We specialize in crafting unforgettable travel experiences for independent bands, performing artists, and fans alike. Our team leverages decades of touring, performance, and travel experience to ensure seamless journeys for our clients.
+            </h1>
+            
+                <img class="accomodation-circle" src="/assets/accomodationcircle.png"></img>
+                <div class="accomodation-ellipse"><img src="/assets/accomodationellipse.png"></img>
+                <span class="information information-accomodation">We understand that everyone has different needs and preferences when it comes to accommodations. Whether you´re staying with friends, sharing an apartment, or looking for a five star experience, we’ve got you covered. With access to travel-agent exclusive inventory and relationships with hotels, we can find the right place and rate for everyone.</span>
+                </div>
+                <img class="transportation-circle" src="/assets/transportationcircle.png"></img>
+                <div class="transportation-ellipse"><img src="/assets/transportationellipse.png"></img>
+                <span class="information information-transportation"><b>Air Travel:</b> With an ever-growing list of airline partners and exclusive rates, we can help you find the best route at the best price for your trip. <br>
 
-        <b>Ground Travel:</b> We work with all international rental car companies and have connections in major cities for that tour van you need once you touch down. We can advise you on our train and bus connections as well.
-        </span>
-        </div>
-    </div>
-    <div class="right">
-        <img class="support-circle" src="/assets/supportcircle.png"></img>
-        <div class="support">
-        <h3>Support</h3>
-        <span>Committed to detail and transparency, we will always share and explain our proposals with you before booking. We provide daily logistical support through Master Tour and TripIt, including driving directions, schedules, and other important information about the day ahead.<br>
+                <b>Ground Travel:</b> We work with all international rental car companies and have connections in major cities for that tour van you need once you touch down. We can advise you on our train and bus connections as well.
+                </span>
+                </div>
+                <img class="support-circle" src="/assets/supportcircle.png"></img>
+                <div class="support-ellipse"><img src="/assets/supportellipse.png"></img>
+                <span class="information information-support">Committed to detail and transparency, we will always share and explain our proposals with you before booking. We provide daily logistical support through Master Tour and TripIt, including driving directions, schedules, and other important information about the day ahead.<br>
 
-        Dealing with a cancelled flight or something unexpected? We’re only a phone call away. 
-        </span>
+                Dealing with a cancelled flight or something unexpected? We’re only a phone call away. 
+                </span>
+                </div>
+                <div class="all-experience">
+                <img class="experiences-circle" src="/assets/experiencescircle.png"></img>
+                <div class="experiences-ellipse"><img src="/assets/experiencesellipse.png"></img>
+                <span class="information information-experiences">Whether you're performing on tour or following your favorite artist to a new location, we want to help you enjoy your trip to the fullest. We can help plan off-day excursions, make sure you see that "can't miss" exhibit or try the best hole-in-the-wall restaurant - or extend your trip to a full vacation.</span>
+                </div>
+                <img class="advice-circle" src="/assets/advicecircle.png"></img>
+                <div class="advice-ellipse"><img src="/assets/adviceellipse.png"></img>
+                <span class="information information-advice">First big tour? We can help you sort out the logistics of your gear.<br>
+                Traveling to a new country? We're happy to investigate visas and carnets for you.<br>
+                Tight budget? Let us hunt for the best deals and find creative solutions to cut costs.</span>
+                </div>
+            </div>
         </div>
-        <div class="all-experience">
-        <img class="experiences-circle" src="/assets/experiencescircle.png"></img>
-        <div class="experiences">
-        <h3>Experiences</h3>
-        <span>Whether you're performing on tour or following your favorite artist to a new location, we want to help you enjoy your trip to the fullest. We can help plan off-day excursions, make sure you see that "can't miss" exhibit or try the best hole-in-the-wall restaurant - or extend your trip to a full vacation.</span>
-        </div>
-        </div>
-        <img class="advice-circle" src="/assets/advicecircle.png"></img>
-        <div class="advice">
-        <h3>Advice and Problem Solving</h3>
-        <span>First big tour? We can help you sort out the logistics of your gear.<br>
-        Traveling to a new country? We're happy to investigate visas and carnets for you.<br>
-        Tight budget? Let us hunt for the best deals and find creative solutions to cut costs.</span>
-        </div>
-    </div>
-    </div>
 
     <%- include('partials/footer') %>
 </body>

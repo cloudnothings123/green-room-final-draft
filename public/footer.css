@@ -2,81 +2,66 @@
     display: none;
 }
 
-footer {
-    background: #000000;
-    display: flex;
-    flex-direction: row;
+.row {
     margin: 0;
     padding: 0;
-    height: 11vw;
-    margin-top: .9vw;
+}
+
+.dropmail-button {
+    background: #B6CC38;
+    width: 45%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.dropmail {
+    color: black;
+    margin: 0;
+}
+
+.footer {
+    background: #000000;
     border-top: solid 1px gray;
+    font-size: .9em;
 }
 
-.leftfooter {
-    display: flex;
-    flex-direction: column;
-    margin-left: 2vw;
-    margin-top: 1vw;
-}
-
-.middlefooter {
-    display: flex;
-    flex-direction: column;
-    margin-left: 3.5vw;
-    margin-top: 3.5vw;
-    font-size: 1.2em;
-}
-
-.middlefooter a {
-    background: none;
-    color: white;
-}
-
-.rightfooter {
-    display: flex;
-    align-items: flex-end;
-    margin-left: 29vw;
-    margin-bottom: 2vw;
-    gap: 3.5vw;
-}
-
-.rightfooter img {
-    height: 3.5vw;
-}
-
-.rightfooter ul {
+ul {
     list-style-type: none;
-    display: flex;
-    gap: 1.4vw;
+    margin: 0;
+    padding: 0;
 }
 
-.rightfooter li a {
+.footer img {
+    width: 5em;
+    margin: 0;
+    padding: 0;
+}
+
+.list-group-horizontal .list-group-item {
+    display: inline;
     background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
-@media screen and (max-width: 480px)  {
-    .drop-line {
-        border: 1px solid #B6CC38;
-        background: #B6CC38;
-        width: 75%;
-        margin: auto;
-        margin-top: -2em;
-        font-size: 1.8em;
-        color: black;
-        padding: 1.5em .5em;
-        border-radius: 1em;
-        text-transform: uppercase;
-        text-align: center;
-        display: inline;
-    }
+.contents {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 1em;
+}
 
-    .footer {
-        height: 250px;
+@media screen and (max-width: 768px)  {
+    .footer img {
+        width: 2em;
     }
+}
 
-    .dropmail {
-        background: none;
-        margin-left: 20%;
+@media screen and (min-width: 1024px)  {
+    .footer img {
+        width: 2.3em;
+        margin: 1em;
     }
 }

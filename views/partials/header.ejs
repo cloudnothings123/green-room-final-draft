@@ -1,35 +1,53 @@
 <head>
     <link rel="stylesheet" href="header.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<header class="header">
-    
-    <section class="top-nav">
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-        <div class='menu-button'></div>
-      </label>
-        <ul class="menu">
-          <li><a href="/ourband">our band</a></li>
-          <li><a href="/realourservices">our services</a></li>
-          <li><a href="/getintouch">get in touch</a></li>
-          <li><a href="/ourservices">for bands</a></li>
-          <li><a href="/forfans">for fans</a></li>
-          <li><a href="/">home</a></li>
-        </ul>
-      </section>
 
-    <nav>
-        <ul>
-            <div class="leftlinks">
-                <li><a href="/ourband">our band</a></li>
-                <li class="ourservices"><a href="/realourservices">our services</a></li>
+<header class="header">
+    <div class="container-fluid background">
+    <div class="dropdown">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-2">
+                    <button class="btn dropdown-toggle btn-lg" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <ul>
+                        <li><a class="dropdown-item" href="/ourband">our band</a></li>
+                        <li><a class="dropdown-item" href="/realourservices">our services</a></li>
+                        <li><a class="dropdown-item" href="/getintouch">get in touch</a></li>
+                        <li><a class="dropdown-item" href="/ourservices">for bands</a></li>
+                        <li><a class="dropdown-item" href="/forfans">for fans</a></li>
+                        <li><a class="dropdown-item" href="/">home</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-8 text-center">
+                    <a href="/"><img class="logo-full" src="/assets/GreenRoom_logo 1.png"></img></a>
+                </div>
+                <div class="col-xs-2"></div>
             </div>
-            <div class="middlelinks">
-                <li><a href="/" class="logo-a"><img class="logo" src="/assets/GreenRoom_logo 1.png"></img></a></li>
-            </div>
-            <div class="rightlinks">
-                <li><a href="/getintouch">get in touch</a></li>
-            </div>
-        </ul>
+    </div>
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-4 navbar-left">
+                    <button class="navbar-btn btn-lg"><a href="/ourband">our band</a></button>
+                    <button class="navbar-btn btn-lg"><a href="/realourservices">our services</a></button>
+                </div>
+                <div class="col-xs-4 center-block text-center">
+                    <a href="/"><img class="logo-full" src="/assets/GreenRoom_logo 1.png"></img></a>
+                </div>
+                <div class="col-xs-4 navbar-right center-block text-center">
+                    <button class="navbar-btn btn-lg"><a href="/getintouch">get in touch</a></button>
+                </div>
+        </div>
     </nav>
 </header>

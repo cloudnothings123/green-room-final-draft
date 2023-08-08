@@ -9,31 +9,39 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
-<body>
+<div class="container-fluid everything">
+    <img class="background-guitar" src="/assets/backgroundguitaragain.png"></img>
     <%- include('partials/header') %>
 
-    <img class="backgroundguitar" src="/assets/backgroundguitaragain.png"></img>
-    <article class="body">
-        <span class="forlinks">
-            <span class="forbands nothidden"><a href="/ourservices" class="bands">FOR BANDS</a></span>
-            <span class="forfans"><a href="/forfans" class="fans">FOR FANS</a></span>
-        </span>
-    <div class="infos">
-        <span class="maininfo">
-            <p class="green">Green Room Travel is an independent, full-service, IATA-accredited travel agency designed to bring professional travel planning to the creative community.</p>
-            <p class="work">We work with performers, tour managers, and crew members to plan efficient and cost-effective concert tours and other creative travel.</p>
-        </span>
-        <span class="bodyh1">
-            <h1 class="lefth1">Planning tours is complicated.</h1>
-            <h1 class="righth1">We make it easy.</h1>
-        </span>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-8 buttons">
+                <button class="btn btn-lg our-services"><a href="/ourservices">FOR BANDS</a></button>
+                <button class="btn btn-lg for-fans"><a href="/forfans">FOR FANS</a></button>
+            </div>
+            <div class="col-xs-2"></div>
+        </div>
     </div>
-    <p class="receive">
-        
-    </p>
-    </article>
+    <div class="container-fluid main-text">
+        <div class="row">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-8 text-center">
+                <p>Green Room Travel is an independent, full-service, IATA-accredited travel agency designed to bring professional travel planning to the creative community.</p>
+                <p>We work with performers, tour managers, and crew members to plan efficient and cost-effective concert tours and other creative travel.</p>
+            </div>
+            <div class="col-xs-2"></div>
+        </div>
+        <div class="row text-center bottom-text">
+            <h1>Planning tours is complicated.</h1>
+            <h1>We make it easy.</h1>
+        </div>
+    </div>
 
     <%- include('partials/footer') %>
-</body>
+</div>
 </html>

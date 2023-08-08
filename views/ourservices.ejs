@@ -9,30 +9,38 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     </head>
-<body>
+<div class="everything">
     <%- include('partials/header') %>
-
-    <div class="background-image">
-        <span class="tophalf">
-            <p class="detail-top">Green Room
+    <div class="container-fluid">
+        <div class="row top-row">
+            <div class="col-xs-8">
+                <p class="detail-top">Green Room
                 Travel provides professional tour planning for artists at DIY rates. We are an IATA-accredited
                 travel agency, so we are able to earn commissions directly from travel vendors. Other tour
                 planning services may charge you a commission or fee on top of the rate you pay for your travel
                 expenses. Our tour planning always comes with a comparison of our rates versus those of
                 leading discount travel providers, making sure that there are no hidden fees or charges. We are
-                confident in comparing our rates with anyone else’s.</p>
-        </span>
-        <h1 class="how-it-works">how it works</h1>
+                confident in comparing our rates with anyone else’s.
+                </p>
+            </div>
+            <div class="col-xs-4">
+                <h1 class="how-it-works">how it works</h1>
+            </div>
+        </div>
         <img class="guitar-image" src="/assets/backgroundguitar.png"></img>
         <img class="guitar-image-bottom" src="/assets/guitarimagebottom.png"></img>
-        <span class="bottomhalf">
+        <img class="airplane" src="/assets/plane.png"></img>
+        <div class="row details">
+            <div class="col-xs-12 col-xs-offset-1">
             <span class="detail detail-reach">
                 <h2>reach out</h2>
                 <p>Get in touch and tell us a bit about yourself and share your needs with us. We can do a bit of preliminary research on things like carnets and visa requirements.</p>
                 <p>Then we can have a more in-depth discussion to help you fine-tune your budget and help us understand your travel preferences.</p>
             </span>
+            </div>
+            <div class="col-xs-12 col-xs-offset-1">
             <span class="detail detail-choose">
-                <div class="break"><br></div>
+                <div class="breaking"><br></div>
                 <h2>choose your package</h2>
                 <p>Based on your needs, we will provide suggestions of routes,
                     accommodations, and transport for you to choose from — always with our commitment to
@@ -41,20 +49,26 @@
                 <p>And touring should be fun too! So let us come up with ideas for
                     sightseeing or an activity for an off day.</p>
             </span>
+            </div>
+            <div class="col-xs-12 col-xs-offset-1">
             <span class="detail detail-get">
-                <div class="break"><br><br><br><br><br><br></div>
+                <div class="breaking"><br><br><br><br><br><br></div>
                 <h2>get on the road</h2>
                 <p>While you’ll have to load the gear in the van yourself, driving directions and
                     the day’s schedule are provided to you through the Master Tour app. </p>
                     <p>Someone will always be
                     available for emergencies, so you can just focus on the next show.</p>
             </span>
-        </span>
-        <span class="tophalf bottom-top">
-            <p class="detail-top"><button><a href="mailto:jk@greenroom.travel">Contact Green Room</a></button>and start planning your next tour today.
-        </span>
+            </div>
+            <div class="col-xs-12 col-xs-offset-1">
+            <span class="detail detail-tour">
+            <div class="breaking"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+            <h2>get in touch</h2>
+            <p>Let's start planning your next tour today.<button><a href="mailto:jk@greenroom.travel">Contact Green Room</a></button></p>
+            </span>
+            </div>
         </div>
-
+    </div>
     <%- include('partials/footer') %>
-</body>
+</div>
 </html>

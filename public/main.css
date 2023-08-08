@@ -1,284 +1,103 @@
-body {
-    display: flex;
-    flex-direction: column;
+.everything {
+    font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
     background: #464141;
     color: white;
-    font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-.hidden {
-    display: none;
-}
-
-.nothidden {
-    display: inline-block;
-}
-
-.work, .green {
-    width: 50%;
-    margin-left: 25%;
-}
-
-.detail {
-    display: none;
-}
-
-.door {
-    display: none;
-}
-
-.care {
-    display: none;
-}
-
-.fans,
-.bands {
-    background: none;
-}
-
-article {
+.buttons {
     display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    height: 58vw;
-}
-
-h1 {
-    text-align: center;
-    font-size: 2.5em;
-    line-height: 1vw;
-    font-weight: 100;
-}
-
-.bodyh1 {
-    margin-top: 1em;
-}
-
-.lefth1 {
-    margin-right: 20vw;
+    justify-content: center;
+    gap: 1em;
     margin-top: 3em;
 }
 
-.righth1 {
-    margin-left: 35vw;
+.row {
+    margin: 0;
+    padding: 0;
 }
 
-.forlinks {
-    display: flex;
-    justify-content: center;
-    gap: 3.6vw;
-    margin-top: 16.8vw;
-    font-size: 1.4em;
-}
-
-.forbands,
-.forfans {
+.our-services,
+.for-fans {
     background: #B6CC38;
-    padding: 2vw 4vw;
+}
+
+.our-services a,
+.for-fans a {
     color: black;
-    font-weight: bold;
-    border-radius: 10px;
 }
 
-.maininfo {
-    text-align: center;
-    width: 60%;
-    margin-left: 5em;
-    margin-top: 5vw;
-    font-size: 1.2em;
-    position: relative;
+.main-text {
+    margin-top: 3em;
 }
 
-.backgroundguitar {
-    position: absolute;
-    left: 43vw;
-    z-index: -1;
-    bottom: -29vw;
+.bottom-text {
+    margin-top: 2em;
 }
 
-.receive {
-    display: none;
+.footer {
+    margin-top: 5em;
 }
 
-@media screen and (max-width: 480px)  { 
+/* phones */
 
-    html, body {
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .background-guitar {
+        display: none;
         margin: 0;
         padding: 0;
+    }
+}
+
+/* iPad */
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .background-guitar {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer {
+        margin-top: 4em;
+    }
+
+    .everything {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html {
         overflow-x: hidden;
     }
 
-        .header .leftlinks {
-            display: none;
-        }
-
-        .header .rightlinks {
-            display: none;
-        }
-
-        .header {
-            height: 200px;
-        }
-
-        .header .middlelinks {
-            margin-left: 85px;
-            margin-top: 20px;
-        }
-
-        .header .logo {
-            height: 130px;
-            width: 170px;
-            padding: 0;
-        }
-
-        .forlinks {
-            display: flex;
-            justify-content: center;
-            gap: 3.6vw;
-            margin-top: 2em;
-            font-size: .5em;
-            margin-bottom: 2em;
-            padding: 0;
-        }
-
-        .backgroundguitar {
-            display: none;
-            width: 0;
-            margin: 0;
-            padding: 0;
-        }
-
-        .infos {
-            display: flex;
-            flex-direction: column-reverse;
-            background: #1E1E1E;
-        }
-
-        h1 {
-            font-size: 1em;
-            width: 75%;
-            font-weight: 400;
-        }
-
-        .maininfo {
-            font-size: .8em;
-            font-weight: 200;
-            width: 100%;
-            margin: 0;
-            margin-left: .1em;
-            margin-top: 1em;
-        }
-
-        .footer {
-            display: flex;
-            flex-direction: column;
-            height: 200px;
-            margin-top: 20em;
-            font-size: .8em;
-        }
-
-        .footer .rightfooter {
-            margin-left: 60%;
-        }
-
-        .footer .middlefooter {
-            margin-left: .5em;
-        }
-
+    .our-services,
+    .for-fans {
+        padding: 2em 5em !important;
     }
 
-    @media screen and (min-width: 480px) and (max-width: 1024px) {
-        .backgroundguitar {
-            display: none;
-        }
-
-        .header {
-            height: 200px;
-        }
-
-        .topnav {
-            display: none;
-        }
-
-        .header .leftlinks {
-            display: flex;
-            align-items: center;
-            margin-left: -.5em;
-        }
-
-        .header .rightlinks {
-            display: flex;
-            align-items: center;
-            margin-right: 4em;
-        }
-
-        .header {
-            height: 200px;
-        }
-
-        .header .middlelinks {
-            display: flex;
-            margin-left: 1em;
-            align-items: center;
-        }
-
-        .header .leftlinks,
-        .header .rightlinks,
-        .header .middlelinks {
-            margin-top: 2em;
-        }
-
-        .header .logo {
-            height: 130px;
-            width: 170px;
-            padding: 0;
-        }
-
-        .infos {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .forlinks {
-            margin-top: 3em;
-        }
-
-        .bodyh1 {
-            margin-left: 3em;
-            margin-top: -3em;
-        }
-
-        .green,
-        .work {
-            width: 100%;
-            margin-left: 2.5em;
-            font-size: 1.4em;
-        }
-
-        .footer {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            height: 200px;
-            margin-top: 25em;
-            font-size: .8em;
-        }
-
-        .footer .middlefooter {
-            justify-content: center;
-            margin-bottom: 3.5em;
-        }
-
-        .footer .leftfooter,
-        .footer .middlefooter {
-            margin-top: 3em;
-        }
-
-        section {
-            display: none;
-        }
-        
+    .our-services a,
+    .for-fans a {
+        font-weight: 700;
+        font-size: 1.5em;
     }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    h1 {
+        font-size: 3.5em !important;
+    }
+
+    .background-guitar {
+        position: absolute;
+        left: 50%;
+        bottom: .9%;
+    }
+
+    .bottom-text {
+        z-index: 1 !important;
+    }
+
+}

@@ -1,65 +1,47 @@
-body {
+.everything {
     background: #979797;
     color: white;
     font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
     overflow-x: hidden;
 }
 
-.background-image {
-    background-image: url('assets/plane.png');
-    background-repeat: no-repeat;
-    background-position: 55% 80%;
-    background-size: 750px;
+.airplane {
+    display: none;
 }
 
-.tophalf, .bottomhalf {
+.breaking {
+    display: block;
+}
+
+.top-row {
     display: flex;
+    align-items: center;
 }
 
-.bottom-top p {
-    margin-left: 17em;
-    width: 40%;
-    text-align: center;
-}
-
-.detail-top button {
+.detail button {
     background:#B6CC38;
-    padding: 2em;
+    padding: 1em;
     font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 1em;
     border-radius: 1em;
 }
 
-.detail-top a {
+.detail a {
     background: none;
+    color: black;
 }
 
 .detail {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    gap: 30px;
     align-items: center;
+    width: 80%;
+    gap: 1em;
     text-align: center;
     background: rgba(70,65,65,.9);
     border-radius: 10px;
     box-shadow: 4px 4px rgba(70,65,80,.5);
-    padding: 10px;
-}
-
-.bottomhalf {
-    gap: 100px;
-    margin-left: 250px;
-    margin-top: 75px;
-    margin-bottom: 25px;
-}
-
-.get {
-    background: none;
-    color: white;
+    padding: 1em;
+    margin-bottom: 2em;
 }
 
 .guitar-image {
@@ -78,93 +60,23 @@ body {
 }
 
 .detail-top {
-    display: flex;
-    width: 40%;
-    align-items: center;
     text-align: center;
     background: rgba(70,65,65,.9);
     border-radius: 10px;
-    padding: 30px 60px;
+    padding: .5em;
     box-shadow: 4px 4px rgba(70,65,80,.5);
-}
-
-.how-it-works {
-    margin-left: 75%;
-    position: absolute;
-    top: 25%;
-    font-size: 3em;
-}
-
-.tophalf {
-    gap: 500px;
-    margin-left: 150px;
-    margin-top: 40px;
-}
-
-header .logo {
-    height: 118px;
-    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-top: .5em;
 }
 
 .header {
-    border-bottom: solid 1px #B6CC38;
+    margin-bottom: 2em;
 }
 
-@media screen and (max-width: 375px)  {
+@media screen and (max-width: 1024px)  { 
 
-    .how-it-works {
-        top: 33%;
-        font-size: 2em;
-    }
-}
-
-
-
-@media screen and (max-width: 480px)  { 
-
-    html, body {
+    html {
         overflow-x: hidden;
-        margin: 0;
-        padding: 0;
-    }
-
-    .header .leftlinks {
-        display: none;
-    }
-
-    .header .rightlinks {
-        display: none;
-    }
-
-    .header {
-        height: 200px;
-    }
-
-    .header .middlelinks {
-        margin-left: 85px;
-        margin-top: 20px;
-    }
-
-    .header .logo {
-        height: 130px;
-        width: 170px;
-        padding: 0;
-    }
-
-    .footer {
-        display: flex;
-        flex-direction: column;
-        height: 200px;
-        margin-top: 5em;
-        font-size: .8em;
-    }
-
-    .footer .rightfooter {
-        margin-left: 60%;
-    }
-
-    .footer .middlefooter {
-        margin-left: .5em;
     }
 
     .guitar-image,
@@ -172,182 +84,73 @@ header .logo {
         display: none;
     }
 
-    .tophalf {
-        width: 90%;
-        padding: 0;
-        margin: 0;
-        gap: 0;
-        margin-top: 4em;
-        margin-left: 1.1em;
-    }
-
-    .detail-top {
-        width: 75%;
-        margin-bottom: 0;
-    }
-
-    .how-it-works {
-        margin-left: 3.2em;
-        margin-top: 1em;
-        font-size: 2em;
-    }
-
-    .detail {
-        flex-direction: column;
-        width: 23.3em;
-        margin-left: -14.5em;
-        gap: 0px;
-        padding: 0;
-    }
-
-    .detail-reach {
-        gap: 0px;
-    }
-
-    .break {
+    .breaking {
         display: none;
-    }
-
-    .detail-get {
-        gap: 0px;
-    }
-
-    .detail-get p {
-        width: 75%;
-    }
-
-    .detail-reach p {
-        width: 75%;
-    }
-
-    .detail-choose p {
-        width: 75%;
-    }
-
-    .bottomhalf {
-        flex-direction: column;
-        gap: 2em;
-        margin-top: 2em;
-    }
-
-    .bottom-top {
-        width: 400px;
-        margin-left: -12em;
-        gap: 0px;
-        padding: 0;
-        margin-top: 0;
-    }
-
-    .bottom-top p {
-        display: flex;
-        flex-direction: column;
-        margin-top: 0;
-    }
-
-    .bottom-top button {
-        margin-left: 1em;
-        margin-bottom: 1em;
     }
 
 }
 
-@media screen and (min-width: 480px) and (max-width: 1024px) {
-    
-    .topnav {
-        display: none;
-    }
-
-    .header .leftlinks {
-        display: flex;
-        align-items: center;
-        margin-left: -.5em;
-    }
-
-    .header .rightlinks {
-        display: flex;
-        align-items: center;
-        margin-right: 4em;
-    }
-
-    .header {
-        height: 200px;
-    }
-
-    .header .middlelinks {
-        display: flex;
-        margin-left: 1em;
-        align-items: center;
-    }
-
-    .header .leftlinks,
-    .header .rightlinks,
-    .header .middlelinks {
-        margin-top: 2em;
-    }
-
-    .header .logo {
-        height: 130px;
-        width: 170px;
-        padding: 0;
-    }
-
-    .footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 200px;
-        margin-top: 10em;
-        font-size: .8em;
-    }
-
-    .footer .middlefooter {
-        justify-content: center;
-        margin-bottom: 3.5em;
-    }
-
-    .footer .leftfooter,
-    .footer .middlefooter {
-        margin-top: 3em;
-    }
-
-    section {
-        display: none;
-    }
-
-    .guitar-image,
-    .guitar-image-bottom {
-        display: none;
-    }
-
-    .tophalf {
-        margin-left: 2em;
+@media screen and (min-width: 1025px) {
+    .detail-top {
+        width: 65%;
+        margin-left: 18%;
+        padding: 2em;
+        font-size: 1em !important;
     }
 
     .how-it-works {
-        font-size: 3em;
-        margin-left: 10.5em;
-        margin-top: 1.5em;
-    }
-
-    .bottomhalf {
-        margin: 0;
-        gap: 1.5em;
-        margin-top: 5em;
+        margin-left: 1.5em;
+        margin-bottom: 3.5em;
+        font-size: 3.5em !important;
+        z-index: 1 !important;
     }
 
     .detail {
-        width: 33%;
-        margin-right: 1em;
-        margin-left: 1em;
-        gap: 1em;
-    }
-    
-    .background-image {
-        background-image: url('');
+        width: 100%;
+        height: 100%;
+        margin: 0;
     }
 
-    .bottom-top {
-        width: 100%;
-        margin-left: -6.5em;
+    .details {
+        display: flex;
+    }
+
+    .footer {
+        margin-top: 2em;
+    }
+
+    p button {
+        margin-top: 1em;
+    }
+
+    .detail-reach,
+    .detail-get,
+    .detail-tour,
+    .detail-choose {
+        margin: 0em -4em;
+    }
+
+    .guitar-image {
+        position: absolute;
+        display: block;
+        margin-top: -115em;
+        margin-left: 10em;
+        z-index: 0;
+    }
+    
+    .guitar-image-bottom {
+        position: absolute;
+        display: block;
+        transform: rotate(90deg);
+        margin-top: -5em;
+        z-index: 0;
+        margin-left: 60em;
+    }
+
+    .airplane {
+        position: absolute;
+        display: block;
+        left: 18em;
+        top: 20em;
     }
 }
