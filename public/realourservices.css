@@ -152,6 +152,10 @@
 
 @media screen and (min-width: 1025px) {
 
+    html {
+        overflow-x: hidden;
+    }
+
     .services {
         transform: rotate(90deg);
         position: absolute;

@@ -53,6 +53,9 @@ p {
 }
 
 @media screen and (min-width: 1025px) {
+    html {
+        overflow-x: hidden;
+    }
     .row .content {
         width: 50%;
         margin-left: 25%;

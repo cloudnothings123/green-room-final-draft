@@ -91,6 +91,10 @@
 }
 
 @media screen and (min-width: 1025px) {
+
+    html {
+        overflow-x: hidden;
+    }
     .detail-top {
         width: 65%;
         margin-left: 18%;
@@ -103,6 +107,10 @@
         margin-bottom: 3.5em;
         font-size: 3.5em !important;
         z-index: 1 !important;
+    }
+
+    .how {
+        z-index: 1;
     }
 
     .detail {

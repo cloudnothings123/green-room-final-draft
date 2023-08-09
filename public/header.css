@@ -48,9 +48,6 @@ nav div {
   border-bottom: solid 1px gray !important;
 }
 
-.navbar-left {
-  margin-left: 1em;
-}
 
 @media screen and (max-width: 1024px) {
   .dropdown {
@@ -77,4 +74,15 @@ nav div {
     padding-top: 1em;
     padding-bottom: 1em;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .our-band {
+    margin-left: 2em;
+  }
+
+  .get-in-touch {
+    margin-left: 5em;
+  }
+
 }

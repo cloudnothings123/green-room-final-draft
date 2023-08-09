@@ -94,10 +94,11 @@
         position: absolute;
         left: 50%;
         bottom: .9%;
+        z-index: 0;
     }
 
-    .bottom-text {
-        z-index: 1 !important;
+    .main-text .row {
+        z-index: 1;
     }
 
 }
