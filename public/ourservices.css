@@ -96,6 +96,15 @@
         display: none;
     }
 
+    .detail-tour p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detail-tour button {
+        margin-top: 1em;
+    }
+
 }
 
 @media screen and (min-width: 1025px) {
