@@ -8,6 +8,14 @@
     padding: 0;
 }
 
+.footer .all {
+    border-top: 1px solid white;
+}
+
+.navbar .all {
+    border-bottom: 1px solid white;
+}
+
 p {
     background: #464141;
     text-align: center;

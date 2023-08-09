@@ -5,6 +5,14 @@
     overflow-x: hidden;
 }
 
+.footer .all {
+    border-top: 1px solid white;
+}
+
+.navbar .all {
+    border-bottom: 1px solid white;
+}
+
 .airplane {
     display: none;
 }

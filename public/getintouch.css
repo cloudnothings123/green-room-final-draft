@@ -11,6 +11,14 @@
     padding-bottom: 4em;
 }
 
+.footer .all {
+    border-top: 1px solid white;
+}
+
+.navbar .all {
+    border-bottom: 1px solid white;
+}
+
 @media screen and (max-width: 1024)  {
     html {
         overflow-x: hidden;
