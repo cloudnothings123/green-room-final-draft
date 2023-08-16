@@ -259,3 +259,12 @@
         top: 2em;
     }
 }
+
+@media screen and (min-width: 1496px) {
+    .services,
+    .h1-rectangle,
+    .h3,
+    .center-block {
+        margin-top: 1.5em;
+    }
+}
