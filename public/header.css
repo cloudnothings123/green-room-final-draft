@@ -40,12 +40,12 @@ nav div {
   background: black;
 }
 
-.logo-full {
-  width: 50%;
-}
-
 .navbar {
   border-bottom: solid 1px gray !important;
+}
+
+.logo-full {
+  width: 50%;
 }
 
 
@@ -81,8 +81,7 @@ nav div {
     margin-left: 2em;
   }
 
-  .get-in-touch {
-    margin-left: 5em;
+  .clients {
+    margin-right: 2em;
   }
-
 }
