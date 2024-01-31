@@ -57,16 +57,8 @@ td > a:hover {
     display: none;
 }
 
-.john:hover .john-table {
-    display: block;
-}
-
 .speedy-table {
     display: none;
-}
-
-.speedy:hover .speedy-table {
-    display: block;
 }
 
 @media screen and (min-width: 0px) and (max-width: 1024px)  { 
