@@ -84,6 +84,22 @@ td > a:hover {
     }
 
     .footer {
-        margin-top: 3em;
+        margin-top: 10em;
+    }
+
+    .table-responsive {
+        margin-top: 9em;
+    }
+
+    .speedy-table {
+        margin-top: 0;
+    }
+    
+    .john-table {
+        margin-top: 0;
+    }
+    
+    .cloud-table {
+        margin-top: 0;
     }
 }
