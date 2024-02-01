@@ -11,21 +11,21 @@
     </head>
 <div class="everything">
     <%- include('partials/header') %>
-    <div class="container-fluid text-center">
+        <div class="container-fluid text-center">
             <h1>clients on tour</h1>
-            <div class="tables table-responsive">
-                <div class="speedy">
-                <button class="band speedy-button">Speedy Ortiz</button>
-                <table class="table table-responsive speedy-table">
-                    <thead>
-                        <tr>
-                            <td scope="col" class="col-md-3">Date</td>
-                            <td scope="col" class="col-md-3">City</td>
-                            <td scope="col" class="col-md-3">Venue</td>
-                            <td scope="col" class="col-md-3">Tickets</td>
-                        </tr>
-                    </thead>
-                <tbody>
+                <div class="tables table-responsive" style="border: none;">
+                    <div class="speedy">
+                        <button class="band speedy-button">Speedy Ortiz</button>
+                        <table class="table table-responsive speedy-table" style="display: none;">
+                            <thead>
+                                <tr>
+                                    <td scope="col" class="col-md-3">Date</td>
+                                    <td scope="col" class="col-md-3">City</td>
+                                    <td scope="col" class="col-md-3">Venue</td>
+                                    <td scope="col" class="col-md-3">Tickets</td>
+                                </tr>
+                            </thead>
+                            <tbody>
                         <tr>
                             <td scope="col" class="col-sm-3">Feb 16, 2024</td>
                             <td scope="col" class="col-sm-3">Manchester, UK</td>
@@ -182,22 +182,22 @@
                             <td scope="col" class="col-sm-3">Loco Club</td>
                             <td scope="col" class="col-sm-3"><a href="https://www.notikumi.com/channel/tranquilo-musica/2024/3/21/speedy-ortiz-en-valencia" target="_blank">Link</a></td>
                         </tr>
-                </tbody>
-                </table>
-            </div>
+                            </tbody>
+                        </table>
+                     </div>
 
-                <div class="john">
-                <button class="band john">John</button>
-                <table class="table table-responsive john-table">
-                    <thead>
-                        <tr>
-                            <td scope="col" class="col-md-3">Date</td>
-                            <td scope="col" class="col-md-3">City</td>
-                            <td scope="col" class="col-md-3">Venue</td>
-                            <td scope="col" class="col-md-3">Tickets</td>
-                        </tr>
-                    </thead>
-                    <tbody>
+                    <div class="john">
+                        <button class="band john">John</button>
+                        <table class="table table-responsive john-table" style="display: none;">
+                            <thead>
+                                <tr>
+                                    <td scope="col" class="col-md-3">Date</td>
+                                    <td scope="col" class="col-md-3">City</td>
+                                    <td scope="col" class="col-md-3">Venue</td>
+                                    <td scope="col" class="col-md-3">Tickets</td>
+                                </tr>
+                            </thead>
+                            <tbody>
                         <tr>
                             <td scope="col" class="col-sm-3">Feb 9, 2024</td>
                             <td scope="col" class="col-sm-3">Bournemouth, UK</td>
@@ -258,11 +258,16 @@
                             <td scope="col" class="col-sm-3">Cluny 2</td>
                             <td scope="col" class="col-sm-3"><a href="https://www.ticketweb.uk/event/john-cluny-2-tickets/13256763?REFERRAL_ID=tmfeed&irgwc=1&utm_source=219208-Bandsintown&utm_medium=affiliate&utm_campaign=219208&clickId=SSRwlYTNIxyPUTXQyJQWHwKVUkHzpyRFiRLnXg0"target="_blank">Link</a></td>
                             </tr>
-                    </tbody>
-                </table>
-            </div>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="cloud">
+                        <button class="band cloud-button">Cloud Nothings</button>
+                        <span class="cloud-table" style="display: none;">No current dates.</span>
+                    </div>
+                </div>
         </div>
-    </div>
     <%- include('partials/footer') %>
 </div>
 <script type="text/javascript" src="js/buttonClick.js"></script>

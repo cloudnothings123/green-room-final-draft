@@ -17,3 +17,13 @@ document.querySelector(".speedy-button").addEventListener("click", () => {
         johnTable.style.display = "none";
     }
   });
+
+  document.querySelector(".cloud").addEventListener("click", () => {
+
+    let cloudTable = document.querySelector(".cloud-table")
+    if (cloudTable.style.display === "none") {
+        cloudTable.style.display = "block";
+    } else {
+        cloudTable.style.display = "none";
+    }
+  });

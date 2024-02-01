@@ -47,18 +47,27 @@ td > a:hover {
     width: 50%;
     padding: 1em;
     border-radius: .5em;
+    margin-top: 3rem;
+}
+
+.table-responsive {
+    border: none;
 }
 
 .footer {
     margin-top: 15em;
 }
 
-.john-table {
-    display: none;
+.speedy-table {
+    margin-top: 0;
 }
 
-.speedy-table {
-    display: none;
+.john-table {
+    margin-top: 0;
+}
+
+.cloud-table {
+    margin-top: 0;
 }
 
 @media screen and (min-width: 0px) and (max-width: 1024px)  { 
@@ -70,11 +79,11 @@ td > a:hover {
         margin-bottom: 1em;
     }
 
-    .john {
-        margin-top: 1em;
-    }
-
     .band {
         font-size: 1.8em;
+    }
+
+    .footer {
+        margin-top: 3em;
     }
 }
