@@ -27,3 +27,13 @@ document.querySelector(".speedy-button").addEventListener("click", () => {
         cloudTable.style.display = "none";
     }
   });
+
+  document.querySelector(".chastity").addEventListener("click", () => {
+
+    let chastityTable = document.querySelector(".chastity-table")
+    if (chastityTable.style.display === "none") {
+        chastityTable.style.display = "block";
+    } else {
+        chastityTable.style.display = "none";
+    }
+  });
