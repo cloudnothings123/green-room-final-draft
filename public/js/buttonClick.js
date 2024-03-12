@@ -11,10 +11,13 @@ document.querySelector(".speedy-button").addEventListener("click", () => {
   document.querySelector(".john").addEventListener("click", () => {
 
     let johnTable = document.querySelector(".john-table")
+    let noDates = document.querySelector(".no-dates")
     if (johnTable.style.display === "none") {
         johnTable.style.display = "block";
+        noDates.style.display = "block"
     } else {
         johnTable.style.display = "none";
+        noDates.style.display = "none"
     }
   });
 
