@@ -1,17 +1,20 @@
 document.querySelector(".speedy-button").addEventListener("click", () => {
 
     let speedyTable = document.querySelector(".speedy-table")
+    let noDates = document.querySelector(".no-dates-speedy")
     if (speedyTable.style.display === "none") {
         speedyTable.style.display = "block";
+        noDates.style.display = "block"
     } else {
         speedyTable.style.display = "none";
+        noDates.style.display = "none"
     }
   });
 
   document.querySelector(".john").addEventListener("click", () => {
 
     let johnTable = document.querySelector(".john-table")
-    let noDates = document.querySelector(".no-dates")
+    let noDates = document.querySelector(".no-dates-john")
     if (johnTable.style.display === "none") {
         johnTable.style.display = "block";
         noDates.style.display = "block"
@@ -38,5 +41,25 @@ document.querySelector(".speedy-button").addEventListener("click", () => {
         chastityTable.style.display = "block";
     } else {
         chastityTable.style.display = "none";
+    }
+  });
+
+  document.querySelector(".robbins").addEventListener("click", () => {
+
+    let robbinsTable = document.querySelector(".robbins-table")
+    if (robbinsTable.style.display === "none") {
+        robbinsTable.style.display = "block";
+    } else {
+        robbinsTable.style.display = "none";
+    }
+  });
+
+  document.querySelector(".pulp").addEventListener("click", () => {
+
+    let pulpTable = document.querySelector(".pulp-table")
+    if (pulpTable.style.display === "none") {
+        pulpTable.style.display = "block";
+    } else {
+        pulpTable.style.display = "none";
     }
   });

@@ -74,6 +74,14 @@ td > a:hover {
     margin-top: 0;
 }
 
+.robbins-table {
+    margin-top: 0;
+}
+
+.pulp-table {
+    margin-top: 0;
+}
+
 @media screen and (min-width: 0px) and (max-width: 1024px)  { 
     h1 {
         display: none;
@@ -108,6 +116,14 @@ td > a:hover {
     }
 
     .chastity-table {
+        margin-top: 0;
+    }
+
+    .robbins-table {
+        margin-top: 0;
+    }
+
+    .pulp-table {
         margin-top: 0;
     }
 }
