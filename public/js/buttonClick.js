@@ -1,4 +1,4 @@
-document.querySelector(".speedy-button").addEventListener("click", () => {
+document.querySelector(".speedy").addEventListener("click", () => {
 
     let speedyTable = document.querySelector(".speedy-table")
     let noDates = document.querySelector(".no-dates-speedy")
@@ -61,5 +61,15 @@ document.querySelector(".speedy-button").addEventListener("click", () => {
         pulpTable.style.display = "block";
     } else {
         pulpTable.style.display = "none";
+    }
+  });
+
+  document.querySelector(".water").addEventListener("click", () => {
+
+    let waterTable = document.querySelector(".water-table")
+    if (waterTable.style.display === "none") {
+        waterTable.style.display = "block";
+    } else {
+        waterTable.style.display = "none";
     }
   });
