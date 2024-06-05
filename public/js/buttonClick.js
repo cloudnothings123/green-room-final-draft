@@ -47,10 +47,13 @@ document.querySelector(".speedy").addEventListener("click", () => {
   document.querySelector(".robbins").addEventListener("click", () => {
 
     let robbinsTable = document.querySelector(".robbins-table")
+    let noDates = document.querySelector(".no-dates-robbins")
     if (robbinsTable.style.display === "none") {
         robbinsTable.style.display = "block";
+        noDates.style.display = "block"
     } else {
         robbinsTable.style.display = "none";
+        noDates.style.display = "none"
     }
   });
 
@@ -71,5 +74,15 @@ document.querySelector(".speedy").addEventListener("click", () => {
         waterTable.style.display = "block";
     } else {
         waterTable.style.display = "none";
+    }
+  });
+
+  document.querySelector(".sea").addEventListener("click", () => {
+
+    let seaTable = document.querySelector(".sea-table")
+    if (seaTable.style.display === "none") {
+        seaTable.style.display = "block";
+    } else {
+        seaTable.style.display = "none";
     }
   });
