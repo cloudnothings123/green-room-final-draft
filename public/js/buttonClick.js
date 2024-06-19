@@ -27,20 +27,26 @@ document.querySelector(".speedy").addEventListener("click", () => {
   document.querySelector(".cloud").addEventListener("click", () => {
 
     let cloudTable = document.querySelector(".cloud-table")
+    let noDates = document.querySelector(".no-dates-cloud")
     if (cloudTable.style.display === "none") {
         cloudTable.style.display = "block";
+        noDates.style.display = "block"
     } else {
         cloudTable.style.display = "none";
+        noDates.style.display = "none"
     }
   });
 
   document.querySelector(".chastity").addEventListener("click", () => {
 
     let chastityTable = document.querySelector(".chastity-table")
+    let noDates = document.querySelector(".no-dates-chastity")
     if (chastityTable.style.display === "none") {
         chastityTable.style.display = "block";
+        noDates.style.display = "block"
     } else {
         chastityTable.style.display = "none";
+        noDates.style.display = "none"
     }
   });
 
@@ -60,29 +66,38 @@ document.querySelector(".speedy").addEventListener("click", () => {
   document.querySelector(".pulp").addEventListener("click", () => {
 
     let pulpTable = document.querySelector(".pulp-table")
+    let noDates = document.querySelector(".no-dates-pulp")
     if (pulpTable.style.display === "none") {
         pulpTable.style.display = "block";
+        noDates.style.display = "block"
     } else {
         pulpTable.style.display = "none";
+        noDates.style.display = "none"
     }
   });
 
   document.querySelector(".water").addEventListener("click", () => {
 
     let waterTable = document.querySelector(".water-table")
+    let noDates = document.querySelector(".no-dates-water")
     if (waterTable.style.display === "none") {
         waterTable.style.display = "block";
+        noDates.style.display = "block"
     } else {
         waterTable.style.display = "none";
+        noDates.style.display = "none"
     }
   });
 
   document.querySelector(".sea").addEventListener("click", () => {
 
     let seaTable = document.querySelector(".sea-table")
+    let noDates = document.querySelector(".no-dates-sea")
     if (seaTable.style.display === "none") {
         seaTable.style.display = "block";
+        noDates.style.display = "block"
     } else {
         seaTable.style.display = "none";
+        noDates.style.display = "none"
     }
   });
