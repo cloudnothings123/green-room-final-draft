@@ -74,7 +74,15 @@ td > a:hover {
     margin-top: 0;
 }
 
+.frost-table {
+    margin-top: 0;
+}
+
 .robbins-table {
+    margin-top: 0;
+}
+
+.lambrini-table {
     margin-top: 0;
 }
 
@@ -127,11 +135,19 @@ td > a:hover {
         margin-top: 0;
     }
 
+    .frost-table {
+        margin-top: 0;
+    }
+
     .chastity-table {
         margin-top: 0;
     }
 
     .robbins-table {
+        margin-top: 0;
+    }
+
+    .lambrini-table {
         margin-top: 0;
     }
 

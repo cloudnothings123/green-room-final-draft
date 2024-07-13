@@ -50,6 +50,16 @@ document.querySelector(".speedy").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".frost").addEventListener("click", () => {
+
+    let frostTable = document.querySelector(".frost-table")
+    if (frostTable.style.display === "none") {
+        frostTable.style.display = "block";
+    } else {
+        frostTable.style.display = "none";
+    }
+  });
+
   document.querySelector(".robbins").addEventListener("click", () => {
 
     let robbinsTable = document.querySelector(".robbins-table")
@@ -60,6 +70,16 @@ document.querySelector(".speedy").addEventListener("click", () => {
     } else {
         robbinsTable.style.display = "none";
         noDates.style.display = "none"
+    }
+  });
+
+  document.querySelector(".lambrini").addEventListener("click", () => {
+
+    let lambriniTable = document.querySelector(".lambrini-table")
+    if (lambriniTable.style.display === "none") {
+        lambriniTable.style.display = "block";
+    } else {
+        lambriniTable.style.display = "none";
     }
   });
 
