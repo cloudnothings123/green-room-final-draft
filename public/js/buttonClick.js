@@ -121,3 +121,29 @@ document.querySelector(".speedy").addEventListener("click", () => {
         noDates.style.display = "none"
     }
   });
+
+  document.querySelector(".butcher").addEventListener("click", () => {
+
+  let butcherTable = document.querySelector(".butcher-table")
+  let noDates = document.querySelector(".no-dates-butcher")
+  if (butcherTable.style.display === "none") {
+    butcherTable.style.display = "block";
+      noDates.style.display = "block"
+  } else {
+    butcherTable.style.display = "none";
+      noDates.style.display = "none"
+  }
+});
+
+document.querySelector(".disintegration").addEventListener("click", () => {
+
+    let disintegrationTable = document.querySelector(".disintegration-table")
+    let noDates = document.querySelector(".no-dates-disintegration")
+    if (disintegrationTable.style.display === "none") {
+        disintegrationTable.style.display = "block";
+        noDates.style.display = "block"
+    } else {
+        disintegrationTable.style.display = "none";
+        noDates.style.display = "none"
+    }
+  });
