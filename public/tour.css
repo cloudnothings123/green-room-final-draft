@@ -62,6 +62,10 @@ td > a:hover {
     margin-top: 0;
 }
 
+.disintegration-table {
+    margin-top: 0;
+}
+
 .john-table {
     margin-top: 0;
 }
@@ -128,10 +132,15 @@ td > a:hover {
     }
 
     .table-responsive {
-        margin-top: 9em;
+        margin-top: 0em;
+        border: none !important;
     }
 
     .speedy-table {
+        margin-top: 0;
+    }
+
+    .disintegration-table {
         margin-top: 0;
     }
     
