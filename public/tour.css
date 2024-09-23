@@ -102,6 +102,10 @@ td > a:hover {
     margin-top: 0;
 }
 
+.mj-table {
+    margin-top: 0;
+}
+
 .no-dates-robbins {
     display: none;
 }
@@ -168,6 +172,10 @@ td > a:hover {
     }
 
     .butcher-table {
+        margin-top: 0;
+    }
+
+    .mj-table {
         margin-top: 0;
     }
 }

@@ -73,6 +73,16 @@ document.querySelector(".speedy").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".mj").addEventListener("click", () => {
+
+    let mjTable = document.querySelector(".mj-table")
+    if (mjTable.style.display === "none") {
+      mjTable.style.display = "block";
+    } else {
+      mjTable.style.display = "none";
+    }
+  });
+
   document.querySelector(".lambrini").addEventListener("click", () => {
 
     let lambriniTable = document.querySelector(".lambrini-table")
