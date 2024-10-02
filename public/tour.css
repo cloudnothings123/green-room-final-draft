@@ -110,6 +110,18 @@ td > a:hover {
     margin-top: 0;
 }
 
+.tapir-table {
+    margin-top: 0;
+}
+
+.julia-table {
+    margin-top: 0;
+}
+
+.genn-table {
+    margin-top: 0;
+}
+
 .no-dates-robbins {
     display: none;
 }
@@ -147,6 +159,10 @@ td > a:hover {
     .john-table {
         margin-top: 0;
     }
+
+    .tapir-table {
+        margin-top: 0;
+    }
     
     .cloud-table {
         margin-top: 0;
@@ -169,6 +185,14 @@ td > a:hover {
     }
 
     .pulp-table {
+        margin-top: 0;
+    }
+
+    .julia-table {
+        margin-top: 0;
+    }
+
+    .genn-table {
         margin-top: 0;
     }
 

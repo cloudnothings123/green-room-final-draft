@@ -132,6 +132,45 @@ document.querySelector(".speedy").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".tapir").addEventListener("click", () => {
+
+    let tapirTable = document.querySelector(".tapir-table")
+    let noDates = document.querySelector(".no-dates-tapir")
+    if (tapirTable.style.display === "none") {
+      tapirTable.style.display = "block";
+        noDates.style.display = "block"
+    } else {
+      tapirTable.style.display = "none";
+        noDates.style.display = "none"
+    }
+  });
+
+  document.querySelector(".genn").addEventListener("click", () => {
+
+    let gennTable = document.querySelector(".genn-table")
+    let noDates = document.querySelector(".no-dates-genn")
+    if (gennTable.style.display === "none") {
+      gennTable.style.display = "block";
+        noDates.style.display = "block"
+    } else {
+      gennTable.style.display = "none";
+        noDates.style.display = "none"
+    }
+  });
+
+  document.querySelector(".julia").addEventListener("click", () => {
+
+    let juliaTable = document.querySelector(".julia-table")
+    let noDates = document.querySelector(".no-dates-julia")
+    if (juliaTable.style.display === "none") {
+      juliaTable.style.display = "block";
+        noDates.style.display = "block"
+    } else {
+      juliaTable.style.display = "none";
+        noDates.style.display = "none"
+    }
+  });
+
   document.querySelector(".butcher").addEventListener("click", () => {
 
   let butcherTable = document.querySelector(".butcher-table")
