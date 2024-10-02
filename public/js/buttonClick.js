@@ -76,10 +76,13 @@ document.querySelector(".speedy").addEventListener("click", () => {
   document.querySelector(".mj").addEventListener("click", () => {
 
     let mjTable = document.querySelector(".mj-table")
+    let noDates = document.querySelector(".no-dates-mj")
     if (mjTable.style.display === "none") {
       mjTable.style.display = "block";
+        noDates.style.display = "block"
     } else {
       mjTable.style.display = "none";
+        noDates.style.display = "none"
     }
   });
 
