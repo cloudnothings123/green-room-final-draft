@@ -37,6 +37,19 @@ document.querySelector(".speedy").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".pup").addEventListener("click", () => {
+
+    let pupTable = document.querySelector(".pup-table")
+    let noDates = document.querySelector(".no-dates-cloud")
+    if (pupTable.style.display === "none") {
+      pupTable.style.display = "block";
+        noDates.style.display = "block"
+    } else {
+      pupTable.style.display = "none";
+        noDates.style.display = "none"
+    }
+  });
+
   document.querySelector(".chastity").addEventListener("click", () => {
 
     let chastityTable = document.querySelector(".chastity-table")

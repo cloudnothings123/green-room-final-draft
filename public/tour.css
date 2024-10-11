@@ -94,6 +94,10 @@ td > a:hover {
     margin-top: 0;
 }
 
+.pup-table {
+    margin-top: 0;
+}
+
 .water-table {
     margin-top: 0;
 }
@@ -149,6 +153,10 @@ td > a:hover {
     }
 
     .speedy-table {
+        margin-top: 0;
+    }
+
+    .pup-table {
         margin-top: 0;
     }
 
