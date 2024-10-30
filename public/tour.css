@@ -114,6 +114,10 @@ td > a:hover {
     margin-top: 0;
 }
 
+.ultra-table {
+    margin-top: 0;
+}
+
 .tapir-table {
     margin-top: 0;
 }
@@ -157,6 +161,10 @@ td > a:hover {
     }
 
     .pup-table {
+        margin-top: 0;
+    }
+
+    .ultra-table {
         margin-top: 0;
     }
 

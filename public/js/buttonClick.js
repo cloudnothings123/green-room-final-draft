@@ -24,6 +24,19 @@ document.querySelector(".speedy").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".ultra").addEventListener("click", () => {
+
+    let ultraTable = document.querySelector(".ultra-table")
+    let noDates = document.querySelector(".no-dates-ultra")
+    if (ultraTable.style.display === "none") {
+      ultraTable.style.display = "block";
+        noDates.style.display = "block"
+    } else {
+      ultraTable.style.display = "none";
+        noDates.style.display = "none"
+    }
+  });
+
   document.querySelector(".cloud").addEventListener("click", () => {
 
     let cloudTable = document.querySelector(".cloud-table")
