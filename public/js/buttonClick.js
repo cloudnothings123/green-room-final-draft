@@ -79,10 +79,13 @@ document.querySelector(".speedy").addEventListener("click", () => {
   document.querySelector(".frost").addEventListener("click", () => {
 
     let frostTable = document.querySelector(".frost-table")
+    let noDates = document.querySelector(".no-dates-frost")
     if (frostTable.style.display === "none") {
         frostTable.style.display = "block";
+        noDates.style.display = "block"
     } else {
         frostTable.style.display = "none";
+        noDates.style.display = "none"
     }
   });
 
@@ -106,6 +109,16 @@ document.querySelector(".speedy").addEventListener("click", () => {
       mjTable.style.display = "block";
     } else {
       mjTable.style.display = "none";
+    }
+  });
+
+  document.querySelector(".wednesday").addEventListener("click", () => {
+
+    let wednesdayTable = document.querySelector(".wednesday-table")
+    if (wednesdayTable.style.display === "none") {
+      wednesdayTable.style.display = "block";
+    } else {
+      wednesdayTable.style.display = "none";
     }
   });
 
