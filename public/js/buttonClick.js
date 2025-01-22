@@ -115,10 +115,13 @@ document.querySelector(".speedy").addEventListener("click", () => {
   document.querySelector(".wednesday").addEventListener("click", () => {
 
     let wednesdayTable = document.querySelector(".wednesday-table")
+    let noDates = document.querySelector(".no-dates-wednesday")
     if (wednesdayTable.style.display === "none") {
       wednesdayTable.style.display = "block";
+      noDates.style.display = "block";
     } else {
       wednesdayTable.style.display = "none";
+      noDates.style.display = "none";
     }
   });
 
@@ -206,6 +209,32 @@ document.querySelector(".speedy").addEventListener("click", () => {
         noDates.style.display = "block"
     } else {
       juliaTable.style.display = "none";
+        noDates.style.display = "none"
+    }
+  });
+
+  document.querySelector(".spits").addEventListener("click", () => {
+
+    let spitsTable = document.querySelector(".spits-table")
+    let noDates = document.querySelector(".no-dates-spits")
+    if (spitsTable.style.display === "none") {
+      spitsTable.style.display = "block";
+        noDates.style.display = "block"
+    } else {
+      spitsTable.style.display = "none";
+        noDates.style.display = "none"
+    }
+  });
+
+  document.querySelector(".thus").addEventListener("click", () => {
+
+    let thusTable = document.querySelector(".thus-table")
+    let noDates = document.querySelector(".no-dates-thus")
+    if (thusTable.style.display === "none") {
+      thusTable.style.display = "block";
+        noDates.style.display = "block"
+    } else {
+      thusTable.style.display = "none";
         noDates.style.display = "none"
     }
   });
