@@ -53,7 +53,7 @@ document.querySelector(".speedy").addEventListener("click", () => {
   document.querySelector(".pup").addEventListener("click", () => {
 
     let pupTable = document.querySelector(".pup-table")
-    let noDates = document.querySelector(".no-dates-cloud")
+    let noDates = document.querySelector(".no-dates-pup")
     if (pupTable.style.display === "none") {
       pupTable.style.display = "block";
         noDates.style.display = "block"
@@ -235,6 +235,32 @@ document.querySelector(".speedy").addEventListener("click", () => {
         noDates.style.display = "block"
     } else {
       thusTable.style.display = "none";
+        noDates.style.display = "none"
+    }
+  });
+
+document.querySelector(".fifteen").addEventListener("click", () => {
+
+    let fifteenTable = document.querySelector(".fifteen-table")
+    let noDates = document.querySelector(".no-dates-fifteen")
+    if (fifteenTable.style.display === "none") {
+      fifteenTable.style.display = "block";
+        noDates.style.display = "block"
+    } else {
+      fifteenTable.style.display = "none";
+        noDates.style.display = "none"
+    }
+  });
+
+  document.querySelector(".lysistrata").addEventListener("click", () => {
+
+    let lysistrataTable = document.querySelector(".lysistrata-table")
+    let noDates = document.querySelector(".no-dates-lysistrata")
+    if (lysistrataTable.style.display === "none") {
+      lysistrataTable.style.display = "block";
+        noDates.style.display = "block"
+    } else {
+      lysistrataTable.style.display = "none";
         noDates.style.display = "none"
     }
   });

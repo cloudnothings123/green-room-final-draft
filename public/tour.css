@@ -102,6 +102,10 @@ td > a:hover {
     margin-top: 0;
 }
 
+.lysistrata-table {
+    margin-top: 0;
+}
+
 .sea-table {
     margin-top: 0;
 }
@@ -119,6 +123,10 @@ td > a:hover {
 }
 
 .ultra-table {
+    margin-top: 0;
+}
+
+.fifteen-table {
     margin-top: 0;
 }
 
@@ -193,6 +201,14 @@ td > a:hover {
     }
 
     .frost-table {
+        margin-top: 0;
+    }
+
+    .lysistrata-table {
+        margin-top: 0;
+    }
+
+    .fifteen-table {
         margin-top: 0;
     }
 
