@@ -30,10 +30,10 @@ document.querySelector(".speedy").addEventListener("click", () => {
     let noDates = document.querySelector(".no-dates-ultra")
     if (ultraTable.style.display === "none") {
       ultraTable.style.display = "block";
-        noDates.style.display = "block"
+      noDates.style.display = "block"
     } else {
       ultraTable.style.display = "none";
-        noDates.style.display = "none"
+      noDates.style.display = "none"
     }
   });
 
@@ -92,13 +92,10 @@ document.querySelector(".speedy").addEventListener("click", () => {
   document.querySelector(".robbins").addEventListener("click", () => {
 
     let robbinsTable = document.querySelector(".robbins-table")
-    let noDates = document.querySelector(".no-dates-robbins")
     if (robbinsTable.style.display === "none") {
         robbinsTable.style.display = "block";
-        noDates.style.display = "block"
     } else {
         robbinsTable.style.display = "none";
-        noDates.style.display = "none"
     }
   });
 
@@ -193,10 +190,10 @@ document.querySelector(".speedy").addEventListener("click", () => {
     let noDates = document.querySelector(".no-dates-genn")
     if (gennTable.style.display === "none") {
       gennTable.style.display = "block";
-        noDates.style.display = "block"
+      noDates.style.display = "block"
     } else {
       gennTable.style.display = "none";
-        noDates.style.display = "none"
+      noDates.style.display = "none"
     }
   });
 
@@ -229,39 +226,30 @@ document.querySelector(".speedy").addEventListener("click", () => {
   document.querySelector(".thus").addEventListener("click", () => {
 
     let thusTable = document.querySelector(".thus-table")
-    let noDates = document.querySelector(".no-dates-thus")
     if (thusTable.style.display === "none") {
       thusTable.style.display = "block";
-        noDates.style.display = "block"
     } else {
       thusTable.style.display = "none";
-        noDates.style.display = "none"
     }
   });
 
 document.querySelector(".fifteen").addEventListener("click", () => {
 
     let fifteenTable = document.querySelector(".fifteen-table")
-    let noDates = document.querySelector(".no-dates-fifteen")
     if (fifteenTable.style.display === "none") {
       fifteenTable.style.display = "block";
-        noDates.style.display = "block"
     } else {
       fifteenTable.style.display = "none";
-        noDates.style.display = "none"
     }
   });
 
   document.querySelector(".lysistrata").addEventListener("click", () => {
 
     let lysistrataTable = document.querySelector(".lysistrata-table")
-    let noDates = document.querySelector(".no-dates-lysistrata")
     if (lysistrataTable.style.display === "none") {
       lysistrataTable.style.display = "block";
-        noDates.style.display = "block"
     } else {
       lysistrataTable.style.display = "none";
-        noDates.style.display = "none"
     }
   });
 
