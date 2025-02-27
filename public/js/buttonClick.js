@@ -11,6 +11,32 @@ document.querySelector(".speedy").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".billie").addEventListener("click", () => {
+
+    let billieTable = document.querySelector(".billie-table")
+    let noDates = document.querySelector(".no-dates-billie")
+    if (billieTable.style.display === "none") {
+      billieTable.style.display = "block";
+      noDates.style.display = "block"
+    } else {
+      billieTable.style.display = "none";
+      noDates.style.display = "none"
+    }
+  });
+
+  document.querySelector(".roller").addEventListener("click", () => {
+
+    let rollerTable = document.querySelector(".roller-table")
+    let noDates = document.querySelector(".no-dates-roller")
+    if (rollerTable.style.display === "none") {
+      rollerTable.style.display = "block";
+      noDates.style.display = "block"
+    } else {
+      rollerTable.style.display = "none";
+      noDates.style.display = "none"
+    }
+  });
+
   document.querySelector(".john").addEventListener("click", () => {
 
     let johnTable = document.querySelector(".john-table")

@@ -82,6 +82,10 @@ td > a:hover {
     margin-top: 0;
 }
 
+.billie-table {
+    margin-top: 0;
+}
+
 .robbins-table {
     margin-top: 0;
 }
@@ -123,6 +127,10 @@ td > a:hover {
 }
 
 .ultra-table {
+    margin-top: 0;
+}
+
+.roller-table {
     margin-top: 0;
 }
 
@@ -204,7 +212,15 @@ td > a:hover {
         margin-top: 0;
     }
 
+    .roller-table {
+        margin-top: 0;
+    }
+
     .lysistrata-table {
+        margin-top: 0;
+    }
+
+    .billie-table {
         margin-top: 0;
     }
 
