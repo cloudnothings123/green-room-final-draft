@@ -30,7 +30,8 @@ button a:hover {
     color: #B6CC38;
     margin-bottom: 1em;
     background: black;
-    font-size: 2em;
+    font-size: 4em;
+    text-transform: uppercase;
 }
 
 td > a {
@@ -58,104 +59,108 @@ td > a:hover {
     margin-top: 15em;
 }
 
-.speedy-table {
-    margin-top: 0;
+.fifteen {
+    margin-top: 0em;
 }
 
-.disintegration-table {
-    margin-top: 0;
+.billie {
+    margin-top: 1em;
 }
 
-.john-table {
-    margin-top: 0;
+.butcher {
+    margin-top: 1em;
 }
 
-.cloud-table {
-    margin-top: 0;
+.chastity {
+    margin-top: 1em;
 }
 
-.chastity-table {
-    margin-top: 0;
+.cloud {
+    margin-top: 1em;
 }
 
-.frost-table {
-    margin-top: 0;
+.disintegration {
+    margin-top: 1em;
 }
 
-.billie-table {
-    margin-top: 0;
+.frost {
+    margin-top: 1em;
 }
 
-.robbins-table {
-    margin-top: 0;
+.genn {
+    margin-top: 1em;
 }
 
-.lambrini-table {
-    margin-top: 0;
+.robbins {
+    margin-top: 1em;
 }
 
-.pulp-table {
-    margin-top: 0;
+.john {
+    margin-top: 1em;
 }
 
-.pup-table {
-    margin-top: 0;
+.julia {
+    margin-top: 1em;
 }
 
-.water-table {
-    margin-top: 0;
+.kent {
+    margin-top: 1em;
 }
 
-.lysistrata-table {
-    margin-top: 0;
+.lambrini {
+    margin-top: 1em;
 }
 
-.sea-table {
-    margin-top: 0;
+.lysistrata {
+    margin-top: 1em;
 }
 
-.butcher-table {
-    margin-top: 0;
+.mj {
+    margin-top: 1em;
 }
 
-.mj-table {
-    margin-top: 0;
+.pup {
+    margin-top: 1em;
 }
 
-.spits-table {
-    margin-top: 0;
+.roller {
+    margin-top: 1em;
 }
 
-.ultra-table {
-    margin-top: 0;
+.sea {
+    margin-top: 1em;
 }
 
-.roller-table {
-    margin-top: 0;
+.pulp {
+    margin-top: 1em;
 }
 
-.fifteen-table {
-    margin-top: 0;
+.speedy {
+    margin-top: 1em;
 }
 
-.tapir-table {
-    margin-top: 0;
+.spits {
+    margin-top: 1em;
 }
 
-.julia-table {
-    margin-top: 0;
+.tapir {
+    margin-top: 1em;
 }
 
-.genn-table {
-    margin-top: 0;
+.thus {
+    margin-top: 1em;
 }
 
-.thus-table {
-    margin-top: 0;
+.ultra {
+    margin-top: 1em;
 }
 
-.no-dates-robbins {
-    display: none;
+.water {
+    margin-top: 1em;
+}
+
+.wednesday {
+    margin-top: 1em;
 }
 
 @media screen and (min-width: 0px) and (max-width: 1024px)  { 
@@ -168,7 +173,7 @@ td > a:hover {
     }
 
     .band {
-        font-size: 1.8em;
+        font-size: 2.5em;
     }
 
     .footer {
@@ -180,99 +185,107 @@ td > a:hover {
         border: none !important;
     }
 
-    .speedy-table {
-        margin-top: 0;
-    }
-
-    .pup-table {
-        margin-top: 0;
-    }
-
-    .ultra-table {
-        margin-top: 0;
-    }
-
-    .disintegration-table {
-        margin-top: 0;
+    .fifteen {
+        margin-top: 0em;
     }
     
-    .john-table {
-        margin-top: 0;
-    }
-
-    .tapir-table {
-        margin-top: 0;
+    .billie {
+        margin-top: 1em;
     }
     
-    .cloud-table {
-        margin-top: 0;
+    .butcher {
+        margin-top: 1em;
+    }
+    
+    .chastity {
+        margin-top: 1em;
+    }
+    
+    .cloud {
+        margin-top: 1em;
+    }
+    
+    .disintegration {
+        margin-top: 1em;
+    }
+    
+    .frost {
+        margin-top: 1em;
+    }
+    
+    .genn {
+        margin-top: 1em;
+    }
+    
+    .robbins {
+        margin-top: 1em;
+    }
+    
+    .john {
+        margin-top: 1em;
+    }
+    
+    .julia {
+        margin-top: 1em;
     }
 
-    .frost-table {
-        margin-top: 0;
+    .kent {
+        margin-top: 1em;
     }
-
-    .roller-table {
-        margin-top: 0;
+    
+    .lambrini {
+        margin-top: 1em;
     }
-
-    .lysistrata-table {
-        margin-top: 0;
+    
+    .lysistrata {
+        margin-top: 1em;
     }
-
-    .billie-table {
-        margin-top: 0;
+    
+    .mj {
+        margin-top: 1em;
     }
-
-    .fifteen-table {
-        margin-top: 0;
+    
+    .pup {
+        margin-top: 1em;
     }
-
-    .chastity-table {
-        margin-top: 0;
+    
+    .roller {
+        margin-top: 1em;
     }
-
-    .robbins-table {
-        margin-top: 0;
+    
+    .sea {
+        margin-top: 1em;
     }
-
-    .spits-table {
-        margin-top: 0;
+    
+    .pulp {
+        margin-top: 1em;
     }
-
-    .lambrini-table {
-        margin-top: 0;
+    
+    .speedy {
+        margin-top: 1em;
     }
-
-    .pulp-table {
-        margin-top: 0;
+    
+    .spits {
+        margin-top: 1em;
     }
-
-    .julia-table {
-        margin-top: 0;
+    
+    .tapir {
+        margin-top: 1em;
     }
-
-    .genn-table {
-        margin-top: 0;
+    
+    .thus {
+        margin-top: 1em;
     }
-
-    .water-table {
-        margin-top: 0;
+    
+    .ultra {
+        margin-top: 1em;
     }
-
-    .sea-table {
-        margin-top: 0;
+    
+    .water {
+        margin-top: 1em;
     }
-
-    .butcher-table {
-        margin-top: 0;
-    }
-
-    .thus-table {
-        margin-top: 0;
-    }
-
-    .mj-table {
-        margin-top: 0;
+    
+    .wednesday {
+        margin-top: 1em;
     }
 }
