@@ -123,6 +123,10 @@ td > a:hover {
     margin-top: 1em;
 }
 
+.model {
+    margin-top: 1em;
+}
+
 .pup {
     margin-top: 1em;
 }
@@ -259,6 +263,10 @@ td > a:hover {
     
     .mj {
         margin-top: 1em;
+    }
+
+    .model {
+    margin-top: 1em;
     }
     
     .pup {
