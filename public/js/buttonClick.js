@@ -1,306 +1,299 @@
-// document.querySelector(".speedy").addEventListener("click", () => {
+document.querySelector(".fifteen").addEventListener("click", () => {
 
-//     let speedyTable = document.querySelector(".speedy-table")
-//     let noDates = document.querySelector(".no-dates-speedy")
-//     if (speedyTable.style.display === "none") {
-//         speedyTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//         speedyTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+    let fifteenScript = document.querySelector(".fifteen-script")
+    if (fifteenScript.style.display === "none") {
+      fifteenScript.style.display = "block";
+    } else {
+      fifteenScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".billie").addEventListener("click", () => {
+document.querySelector(".billie").addEventListener("click", () => {
 
-//     let billieTable = document.querySelector(".billie-table")
-//     let noDates = document.querySelector(".no-dates-billie")
-//     if (billieTable.style.display === "none") {
-//       billieTable.style.display = "block";
-//       noDates.style.display = "block"
-//     } else {
-//       billieTable.style.display = "none";
-//       noDates.style.display = "none"
-//     }
-//   });
+    let billieScript = document.querySelector(".billie-script")
+    if (billieScript.style.display === "none") {
+      billieScript.style.display = "block";
+    } else {
+      billieScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".roller").addEventListener("click", () => {
+document.querySelector(".bruit").addEventListener("click", () => {
 
-//     let rollerTable = document.querySelector(".roller-table")
-//     let noDates = document.querySelector(".no-dates-roller")
-//     if (rollerTable.style.display === "none") {
-//       rollerTable.style.display = "block";
-//       noDates.style.display = "block"
-//     } else {
-//       rollerTable.style.display = "none";
-//       noDates.style.display = "none"
-//     }
-//   });
+    let bruitScript = document.querySelector(".bruit-script")
+    if (bruitScript.style.display === "none") {
+      bruitScript.style.display = "block";
+    } else {
+      bruitScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".john").addEventListener("click", () => {
+document.querySelector(".butcher").addEventListener("click", () => {
 
-//     let johnTable = document.querySelector(".john-table")
-//     let noDates = document.querySelector(".no-dates-john")
-//     if (johnTable.style.display === "none") {
-//         johnTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//         johnTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+  let butcherScript = document.querySelector(".butcher-script")
+  if (butcherScript.style.display === "none") {
+    butcherScript.style.display = "block";
+  } else {
+    butcherScript.style.display = "none";
+  }
+});
 
-//   document.querySelector(".ultra").addEventListener("click", () => {
+document.querySelector(".chastity").addEventListener("click", () => {
 
-//     let ultraTable = document.querySelector(".ultra-table")
-//     let noDates = document.querySelector(".no-dates-ultra")
-//     if (ultraTable.style.display === "none") {
-//       ultraTable.style.display = "block";
-//       noDates.style.display = "block"
-//     } else {
-//       ultraTable.style.display = "none";
-//       noDates.style.display = "none"
-//     }
-//   });
+    let chastityScript = document.querySelector(".chastity-script")
+    if (chastityScript.style.display === "none") {
+        chastityScript.style.display = "block";
+    } else {
+        chastityScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".cloud").addEventListener("click", () => {
+document.querySelector(".cloud").addEventListener("click", () => {
 
-//     let cloudTable = document.querySelector(".cloud-table")
-//     let noDates = document.querySelector(".no-dates-cloud")
-//     if (cloudTable.style.display === "none") {
-//         cloudTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//         cloudTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+    let cloudScript = document.querySelector(".cloud-script")
+    if (cloudScript.style.display === "none") {
+        cloudScript.style.display = "block";
+    } else {
+        cloudScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".pup").addEventListener("click", () => {
+document.querySelector(".disintegration").addEventListener("click", () => {
 
-//     let pupTable = document.querySelector(".pup-table")
-//     let noDates = document.querySelector(".no-dates-pup")
-//     if (pupTable.style.display === "none") {
-//       pupTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//       pupTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+    let disintegrationScript = document.querySelector(".disintegration-script")
+    if (disintegrationScript.style.display === "none") {
+        disintegrationScript.style.display = "block";
+    } else {
+        disintegrationScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".chastity").addEventListener("click", () => {
+document.querySelector(".frost").addEventListener("click", () => {
 
-//     let chastityTable = document.querySelector(".chastity-table")
-//     let noDates = document.querySelector(".no-dates-chastity")
-//     if (chastityTable.style.display === "none") {
-//         chastityTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//         chastityTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+    let frostScript = document.querySelector(".frost-script")
+    if (frostScript.style.display === "none") {
+        frostScript.style.display = "block";
+    } else {
+        frostScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".frost").addEventListener("click", () => {
+document.querySelector(".genn").addEventListener("click", () => {
 
-//     let frostTable = document.querySelector(".frost-table")
-//     let noDates = document.querySelector(".no-dates-frost")
-//     if (frostTable.style.display === "none") {
-//         frostTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//         frostTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+    let gennScript = document.querySelector(".genn-script")
+    if (gennScript.style.display === "none") {
+      gennScript.style.display = "block";
+    } else {
+      gennScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".robbins").addEventListener("click", () => {
+document.querySelector(".robbins").addEventListener("click", () => {
 
-//     let robbinsTable = document.querySelector(".robbins-table")
-//     if (robbinsTable.style.display === "none") {
-//         robbinsTable.style.display = "block";
-//     } else {
-//         robbinsTable.style.display = "none";
-//     }
-//   });
+    let robbinsScript = document.querySelector(".robbins-script")
+    if (robbinsScript.style.display === "none") {
+        robbinsScript.style.display = "block";
+    } else {
+        robbinsScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".mj").addEventListener("click", () => {
+document.querySelector(".john").addEventListener("click", () => {
 
-//     let mjTable = document.querySelector(".mj-table")
-//     if (mjTable.style.display === "none") {
-//       mjTable.style.display = "block";
-//     } else {
-//       mjTable.style.display = "none";
-//     }
-//   });
+    let johnScript = document.querySelector(".john-script")
+    if (johnScript.style.display === "none") {
+        johnScript.style.display = "block";
+    } else {
+        johnScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".wednesday").addEventListener("click", () => {
+document.querySelector(".julia").addEventListener("click", () => {
 
-//     let wednesdayTable = document.querySelector(".wednesday-table")
-//     let noDates = document.querySelector(".no-dates-wednesday")
-//     if (wednesdayTable.style.display === "none") {
-//       wednesdayTable.style.display = "block";
-//       noDates.style.display = "block";
-//     } else {
-//       wednesdayTable.style.display = "none";
-//       noDates.style.display = "none";
-//     }
-//   });
+    let juliaScript = document.querySelector(".julia-script")
+    if (juliaScript.style.display === "none") {
+      juliaScript.style.display = "block";
+    } else {
+      juliaScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".lambrini").addEventListener("click", () => {
+document.querySelector(".kent").addEventListener("click", () => {
 
-//     let lambriniTable = document.querySelector(".lambrini-table")
-//     if (lambriniTable.style.display === "none") {
-//         lambriniTable.style.display = "block";
-//     } else {
-//         lambriniTable.style.display = "none";
-//     }
-//   });
+    let kentScript = document.querySelector(".kent-script")
+    if (kentScript.style.display === "none") {
+        kentScript.style.display = "block";
+    } else {
+        kentScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".pulp").addEventListener("click", () => {
+document.querySelector(".lambrini").addEventListener("click", () => {
 
-//     let pulpTable = document.querySelector(".pulp-table")
-//     let noDates = document.querySelector(".no-dates-pulp")
-//     if (pulpTable.style.display === "none") {
-//         pulpTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//         pulpTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+    let lambriniScript = document.querySelector(".lambrini-script")
+    if (lambriniScript.style.display === "none") {
+        lambriniScript.style.display = "block";
+    } else {
+        lambriniScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".water").addEventListener("click", () => {
+document.querySelector(".lysistrata").addEventListener("click", () => {
 
-//     let waterTable = document.querySelector(".water-table")
-//     let noDates = document.querySelector(".no-dates-water")
-//     if (waterTable.style.display === "none") {
-//         waterTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//         waterTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+    let lysistrataScript = document.querySelector(".lysistrata-script")
+    if (lysistrataScript.style.display === "none") {
+      lysistrataScript.style.display = "block";
+    } else {
+      lysistrataScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".sea").addEventListener("click", () => {
+document.querySelector(".mj").addEventListener("click", () => {
 
-//     let seaTable = document.querySelector(".sea-table")
-//     let noDates = document.querySelector(".no-dates-sea")
-//     if (seaTable.style.display === "none") {
-//         seaTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//         seaTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+    let mjScript = document.querySelector(".mj-script")
+    if (mjScript.style.display === "none") {
+      mjScript.style.display = "block";
+    } else {
+      mjScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".tapir").addEventListener("click", () => {
+document.querySelector(".model").addEventListener("click", () => {
 
-//     let tapirTable = document.querySelector(".tapir-table")
-//     let noDates = document.querySelector(".no-dates-tapir")
-//     if (tapirTable.style.display === "none") {
-//       tapirTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//       tapirTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+    let modelScript = document.querySelector(".model-script")
+    if (modelScript.style.display === "none") {
+      modelScript.style.display = "block";
+    } else {
+      modelScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".genn").addEventListener("click", () => {
+document.querySelector(".pup").addEventListener("click", () => {
 
-//     let gennTable = document.querySelector(".genn-table")
-//     let noDates = document.querySelector(".no-dates-genn")
-//     if (gennTable.style.display === "none") {
-//       gennTable.style.display = "block";
-//       noDates.style.display = "block"
-//     } else {
-//       gennTable.style.display = "none";
-//       noDates.style.display = "none"
-//     }
-//   });
+    let pupScript = document.querySelector(".pup-script")
+    if (pupScript.style.display === "none") {
+      pupScript.style.display = "block";
+    } else {
+      pupScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".julia").addEventListener("click", () => {
+document.querySelector(".roller").addEventListener("click", () => {
 
-//     let juliaTable = document.querySelector(".julia-table")
-//     let noDates = document.querySelector(".no-dates-julia")
-//     if (juliaTable.style.display === "none") {
-//       juliaTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//       juliaTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+    let rollerScript = document.querySelector(".roller-script")
+    if (rollerScript.style.display === "none") {
+      rollerScript.style.display = "block";
+    } else {
+      rollerScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".spits").addEventListener("click", () => {
+document.querySelector(".sea").addEventListener("click", () => {
 
-//     let spitsTable = document.querySelector(".spits-table")
-//     let noDates = document.querySelector(".no-dates-spits")
-//     if (spitsTable.style.display === "none") {
-//       spitsTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//       spitsTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+    let seaScript = document.querySelector(".sea-script")
+    if (seaScript.style.display === "none") {
+        seaScript.style.display = "block";
+    } else {
+        seaScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".thus").addEventListener("click", () => {
+document.querySelector(".pulp").addEventListener("click", () => {
 
-//     let thusTable = document.querySelector(".thus-table")
-//     if (thusTable.style.display === "none") {
-//       thusTable.style.display = "block";
-//     } else {
-//       thusTable.style.display = "none";
-//     }
-//   });
+    let pulpScript = document.querySelector(".pulp-script")
+    if (pulpScript.style.display === "none") {
+        pulpScript.style.display = "block";
+    } else {
+        pulpScript.style.display = "none";
+    }
+  });
 
-// document.querySelector(".fifteen").addEventListener("click", () => {
+document.querySelector(".snooper").addEventListener("click", () => {
 
-//     let fifteenTable = document.querySelector(".fifteen-table")
-//     if (fifteenTable.style.display === "none") {
-//       fifteenTable.style.display = "block";
-//     } else {
-//       fifteenTable.style.display = "none";
-//     }
-//   });
+    let snooperScript = document.querySelector(".snooper-script")
+    if (snooperScript.style.display === "none") {
+      snooperScript.style.display = "block";
+    } else {
+      snooperScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".lysistrata").addEventListener("click", () => {
+document.querySelector(".speedy").addEventListener("click", () => {
 
-//     let lysistrataTable = document.querySelector(".lysistrata-table")
-//     if (lysistrataTable.style.display === "none") {
-//       lysistrataTable.style.display = "block";
-//     } else {
-//       lysistrataTable.style.display = "none";
-//     }
-//   });
+    let speedyScript = document.querySelector(".speedy-script")
+    if (speedyScript.style.display === "none") {
+        speedyScript.style.display = "block";
+    } else {
+        speedyScript.style.display = "none";
+    }
+  });
 
-//   document.querySelector(".butcher").addEventListener("click", () => {
+document.querySelector(".spits").addEventListener("click", () => {
 
-//   let butcherTable = document.querySelector(".butcher-table")
-//   let noDates = document.querySelector(".no-dates-butcher")
-//   if (butcherTable.style.display === "none") {
-//     butcherTable.style.display = "block";
-//       noDates.style.display = "block"
-//   } else {
-//     butcherTable.style.display = "none";
-//       noDates.style.display = "none"
-//   }
-// });
+    let spitsScript = document.querySelector(".spits-script")
+    if (spitsScript.style.display === "none") {
+      spitsScript.style.display = "block";
+    } else {
+      spitsScript.style.display = "none";
+    }
+  });
 
-// document.querySelector(".disintegration").addEventListener("click", () => {
+document.querySelector(".suuns").addEventListener("click", () => {
 
-//     let disintegrationTable = document.querySelector(".disintegration-table")
-//     let noDates = document.querySelector(".no-dates-disintegration")
-//     if (disintegrationTable.style.display === "none") {
-//         disintegrationTable.style.display = "block";
-//         noDates.style.display = "block"
-//     } else {
-//         disintegrationTable.style.display = "none";
-//         noDates.style.display = "none"
-//     }
-//   });
+    let suunsScript = document.querySelector(".suuns-script")
+    if (suunsScript.style.display === "none") {
+      suunsScript.style.display = "block";
+    } else {
+      suunsScript.style.display = "none";
+    }
+  });
+
+document.querySelector(".tapir").addEventListener("click", () => {
+
+    let tapirScript = document.querySelector(".tapir-script")
+    if (tapirScript.style.display === "none") {
+      tapirScript.style.display = "block";
+    } else {
+      tapirScript.style.display = "none";
+    }
+  });
+
+document.querySelector(".thus").addEventListener("click", () => {
+
+    let thusScript = document.querySelector(".thus-script")
+    if (thusScript.style.display === "none") {
+      thusScript.style.display = "block";
+    } else {
+      thusScript.style.display = "none";
+    }
+  });
+
+  document.querySelector(".ultra").addEventListener("click", () => {
+
+    let ultraScript = document.querySelector(".ultra-script")
+    if (ultraScript.style.display === "none") {
+      ultraScript.style.display = "block";
+    } else {
+      ultraScript.style.display = "none";
+    }
+  });
+
+document.querySelector(".water").addEventListener("click", () => {
+
+    let waterScript = document.querySelector(".water-script")
+    if (waterScript.style.display === "none") {
+        waterScript.style.display = "block";
+    } else {
+        waterScript.style.display = "none";
+    }
+  });
+
+document.querySelector(".wednesday").addEventListener("click", () => {
+
+    let wednesdayScript = document.querySelector(".wednesday-script")
+    if (wednesdayScript.style.display === "none") {
+      wednesdayScript.style.display = "block";
+    } else {
+      wednesdayScript.style.display = "none";
+    }
+  });
