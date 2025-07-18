@@ -57,6 +57,10 @@ td > a:hover {
     margin-top: 15em;
 }
 
+.bandcamp {
+    color: #B6CC38;
+}
+
 @media screen and (min-width: 0px) and (max-width: 1024px)  { 
     h1 {
         display: none;
