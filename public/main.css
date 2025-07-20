@@ -16,22 +16,12 @@
     padding: 0;
 }
 
-.our-services,
-.for-fans {
-    background: #B6CC38;
-}
-
-.our-services a,
-.for-fans a {
-    color: black;
-}
-
 .main-text {
     margin-top: 3em;
 }
 
 .bottom-text {
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 .footer {
@@ -71,29 +61,18 @@
         overflow-x: hidden;
     }
 
-    .our-services,
-    .for-fans {
-        padding: 2em 5em !important;
-    }
-
-    .our-services a,
-    .for-fans a {
-        font-weight: 700;
-        font-size: 1.5em;
-    }
-
     p {
         font-size: 1.3em;
     }
 
     h1 {
-        font-size: 3.5em !important;
+        font-size: 4em !important;
     }
 
     .background-guitar {
         position: absolute;
         left: 50%;
-        bottom: .9%;
+        bottom: 6.3%;
         z-index: 0;
     }
 

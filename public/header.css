@@ -10,15 +10,6 @@ body {
   display: none;
 }
 
-.navbar-btn {
-  padding: .25em !important;
-  background: #D9D9D9;
-}
-
-.btn-lg {
-  color: black;
-}
-
 #dropdownMenuButton {
   background: #B6CC38;
   margin: .5em;
@@ -26,26 +17,24 @@ body {
 }
 
 .navbar .container-fluid button a {
-  color: black;
+  color: #B6CC38;
   font-weight: 400;
   font-size: 1.3em;
 }
 
-nav div {
+button {
+  background: none !important;
+  border: none;
+}
+
+nav div .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: .5em;
   width: 100%;
   background: black;
-}
-
-.navbar {
-  border-bottom: solid 1px gray !important;
-}
-
-.logo-full {
-  width: 50%;
+  border-bottom: none;
 }
 
 
@@ -79,9 +68,5 @@ nav div {
 @media screen and (min-width: 1024px) {
   .our-band {
     margin-left: 2em;
-  }
-
-  .clients {
-    margin-right: 2em;
   }
 }
