@@ -4,13 +4,6 @@
     color: white;
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 1em;
-    margin-top: 3em;
-}
-
 .row {
     margin: 0;
     padding: 0;
