@@ -68,6 +68,16 @@ document.querySelector(".disintegration").addEventListener("click", () => {
     }
   });
 
+document.querySelector(".edging").addEventListener("click", () => {
+
+    let edgingScript = document.querySelector(".edging-script")
+    if (edgingScript.style.display === "none") {
+      edgingScript.style.display = "block";
+    } else {
+      edgingScript.style.display = "none";
+    }
+  });
+
 document.querySelector(".frost").addEventListener("click", () => {
 
     let frostScript = document.querySelector(".frost-script")
