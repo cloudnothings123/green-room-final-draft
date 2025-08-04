@@ -11,6 +11,25 @@ h1 {
     top: 5.5em;
 }
 
+.bit-event-list-title {
+    display: none !important;
+}
+
+.bit-date:hover,
+.bit-date,
+.bit-location:hover,
+.bit-location,
+.bit-venue,
+.bit-venue:hover {
+    color:#D9D9D9 !important;
+    text-decoration: none;
+    border: none !important;
+}
+
+.bit-rsvp {
+    display: none !important;
+}
+
 button {
     border: none;
     border-radius: 1em;
@@ -29,7 +48,6 @@ button a:hover {
     color: #B6CC38;
     background: black;
     font-size: 4em;
-    text-transform: uppercase;
 }
 
 td > a {
