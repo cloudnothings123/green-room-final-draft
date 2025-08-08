@@ -15,6 +15,11 @@ h1 {
     display: none !important;
 }
 
+.bit-event {
+    padding-top: 17px !important;
+    padding-bottom: 0px !important;
+}
+
 .bit-date:hover,
 .bit-date,
 .bit-location:hover,
