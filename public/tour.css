@@ -56,6 +56,10 @@ button a:hover {
     font-size: 4em;
 }
 
+.band:hover {
+    color: #D9D9D9;
+}
+
 td > a {
     color: #B6CC38;
 }
