@@ -208,6 +208,16 @@ document.querySelector(".sea").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".sharlese").addEventListener("click", () => {
+
+  let sharleseScript = document.querySelector(".sharlese-script")
+  if (sharleseScript.style.display === "none") {
+    sharleseScript.style.display = "block";
+  } else {
+    sharleseScript.style.display = "none";
+  }
+});
+
 document.querySelector(".pulp").addEventListener("click", () => {
 
     let pulpScript = document.querySelector(".pulp-script")
