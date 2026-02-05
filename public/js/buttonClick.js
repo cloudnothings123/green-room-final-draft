@@ -78,6 +78,16 @@ document.querySelector(".edging").addEventListener("click", () => {
     }
   });
 
+document.querySelector(".franc").addEventListener("click", () => {
+
+  let francScript = document.querySelector(".franc-script")
+  if (francScript.style.display === "none") {
+    francScript.style.display = "block";
+  } else {
+    francScript.style.display = "none";
+  }
+});
+
 document.querySelector(".frost").addEventListener("click", () => {
 
     let frostScript = document.querySelector(".frost-script")
@@ -97,6 +107,16 @@ document.querySelector(".genn").addEventListener("click", () => {
       gennScript.style.display = "none";
     }
   });
+
+document.querySelector(".geordie").addEventListener("click", () => {
+
+  let geordieScript = document.querySelector(".geordie-script")
+  if (geordieScript.style.display === "none") {
+    geordieScript.style.display = "block";
+  } else {
+    geordieScript.style.display = "none";
+  }
+});
 
 document.querySelector(".robbins").addEventListener("click", () => {
 
