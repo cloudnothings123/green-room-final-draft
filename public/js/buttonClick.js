@@ -8,6 +8,16 @@ document.querySelector(".fifteen").addEventListener("click", () => {
     }
   });
 
+document.querySelector(".lazarus").addEventListener("click", () => {
+
+    let lazarusScript = document.querySelector(".lazarus-script")
+    if (lazarusScript.style.display === "none") {
+      lazarusScript.style.display = "block";
+    } else {
+      lazarusScript.style.display = "none";
+    }
+  });
+
 document.querySelector(".billie").addEventListener("click", () => {
 
     let billieScript = document.querySelector(".billie-script")
