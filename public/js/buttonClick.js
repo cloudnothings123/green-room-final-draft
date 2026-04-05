@@ -18,6 +18,16 @@ document.querySelector(".lazarus").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".aka").addEventListener("click", () => {
+
+    let akaScript = document.querySelector(".aka-script")
+    if (akaScript.style.display === "none") {
+      akaScript.style.display = "block";
+    } else {
+      akaScript.style.display = "none";
+    }
+  });
+
 document.querySelector(".billie").addEventListener("click", () => {
 
     let billieScript = document.querySelector(".billie-script")
@@ -305,6 +315,16 @@ document.querySelector(".tapir").addEventListener("click", () => {
       tapirScript.style.display = "block";
     } else {
       tapirScript.style.display = "none";
+    }
+  });
+
+  document.querySelector(".tempers").addEventListener("click", () => {
+
+    let tempersScript = document.querySelector(".tempers-script")
+    if (tempersScript.style.display === "none") {
+      tempersScript.style.display = "block";
+    } else {
+      tempersScript.style.display = "none";
     }
   });
 
