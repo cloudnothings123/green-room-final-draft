@@ -148,6 +148,16 @@ document.querySelector(".robbins").addEventListener("click", () => {
     }
   });
 
+   document.querySelector(".jason").addEventListener("click", () => {
+
+    let jasonScript = document.querySelector(".jason-script")
+    if (jasonScript.style.display === "none") {
+      jasonScript.style.display = "block";
+    } else {
+      jasonScript.style.display = "none";
+    }
+  });
+
 document.querySelector(".john").addEventListener("click", () => {
 
     let johnScript = document.querySelector(".john-script")
