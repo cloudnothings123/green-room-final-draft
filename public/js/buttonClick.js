@@ -68,6 +68,16 @@ document.querySelector(".chastity").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".clap").addEventListener("click", () => {
+
+    let clapScript = document.querySelector(".clap-script")
+    if (clapScript.style.display === "none") {
+        clapScript.style.display = "block";
+    } else {
+        clapScript.style.display = "none";
+    }
+  });
+
 document.querySelector(".cloud").addEventListener("click", () => {
 
     let cloudScript = document.querySelector(".cloud-script")
@@ -118,6 +128,16 @@ document.querySelector(".frost").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".g").addEventListener("click", () => {
+
+    let gScript = document.querySelector(".g-script")
+    if (gScript.style.display === "none") {
+        gScript.style.display = "block";
+    } else {
+        gScript.style.display = "none";
+    }
+  });
+
 document.querySelector(".genn").addEventListener("click", () => {
 
     let gennScript = document.querySelector(".genn-script")
@@ -138,6 +158,16 @@ document.querySelector(".geordie").addEventListener("click", () => {
   }
 });
 
+document.querySelector(".greg").addEventListener("click", () => {
+
+    let gregScript = document.querySelector(".greg-script")
+    if (gregScript.style.display === "none") {
+        gregScript.style.display = "block";
+    } else {
+        gregScript.style.display = "none";
+    }
+  });
+
 document.querySelector(".robbins").addEventListener("click", () => {
 
     let robbinsScript = document.querySelector(".robbins-script")
@@ -148,7 +178,7 @@ document.querySelector(".robbins").addEventListener("click", () => {
     }
   });
 
-   document.querySelector(".jason").addEventListener("click", () => {
+  document.querySelector(".jason").addEventListener("click", () => {
 
     let jasonScript = document.querySelector(".jason-script")
     if (jasonScript.style.display === "none") {
@@ -195,6 +225,16 @@ document.querySelector(".lambrini").addEventListener("click", () => {
         lambriniScript.style.display = "block";
     } else {
         lambriniScript.style.display = "none";
+    }
+  });
+
+  document.querySelector(".liana").addEventListener("click", () => {
+
+    let lianaScript = document.querySelector(".liana-script")
+    if (lianaScript.style.display === "none") {
+      lianaScript.style.display = "block";
+    } else {
+      lianaScript.style.display = "none";
     }
   });
 
