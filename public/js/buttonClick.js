@@ -278,6 +278,17 @@ document.querySelector(".pup").addEventListener("click", () => {
     }
   });
 
+document.querySelector(".renny").addEventListener("click", () => {
+
+  let rennyScript = document.querySelector(".renny-script")
+  if (rennyScript.style.display === "none") {
+    rennyScript.style.display = "block";
+  } else {
+    rennyScript.style.display = "none";
+  }
+});
+
+
 document.querySelector(".roller").addEventListener("click", () => {
 
     let rollerScript = document.querySelector(".roller-script")
