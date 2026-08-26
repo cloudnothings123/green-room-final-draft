@@ -268,6 +268,16 @@ document.querySelector(".model").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".mono").addEventListener("click", () => {
+
+    let monoScript = document.querySelector(".mono-script")
+    if (monoScript.style.display === "none") {
+      monoScript.style.display = "block";
+    } else {
+      monoScript.style.display = "none";
+    }
+  });
+
 document.querySelector(".pup").addEventListener("click", () => {
 
     let pupScript = document.querySelector(".pup-script")
