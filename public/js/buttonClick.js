@@ -188,6 +188,16 @@ document.querySelector(".robbins").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".jasper").addEventListener("click", () => {
+
+    let jasperScript = document.querySelector(".jasper-script")
+    if (jasperScript.style.display === "none") {
+      jasperScript.style.display = "block";
+    } else {
+      jasperScript.style.display = "none";
+    }
+  });
+
 document.querySelector(".john").addEventListener("click", () => {
 
     let johnScript = document.querySelector(".john-script")
@@ -275,6 +285,16 @@ document.querySelector(".model").addEventListener("click", () => {
       monoScript.style.display = "block";
     } else {
       monoScript.style.display = "none";
+    }
+  });
+
+  document.querySelector(".my").addEventListener("click", () => {
+
+    let myScript = document.querySelector(".my-script")
+    if (myScript.style.display === "none") {
+      myScript.style.display = "block";
+    } else {
+      myScript.style.display = "none";
     }
   });
 
@@ -436,5 +456,15 @@ document.querySelector(".wednesday").addEventListener("click", () => {
       wednesdayScript.style.display = "block";
     } else {
       wednesdayScript.style.display = "none";
+    }
+  });
+
+  document.querySelector(".wisp").addEventListener("click", () => {
+
+    let wispScript = document.querySelector(".wisp-script")
+    if (wispScript.style.display === "none") {
+      wispScript.style.display = "block";
+    } else {
+      wispScript.style.display = "none";
     }
   });
