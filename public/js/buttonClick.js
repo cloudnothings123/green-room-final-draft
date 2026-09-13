@@ -118,6 +118,16 @@ document.querySelector(".franc").addEventListener("click", () => {
   }
 });
 
+document.querySelector(".freak").addEventListener("click", () => {
+
+    let freakScript = document.querySelector(".freak-script")
+    if (freakScript.style.display === "none") {
+      freakScript.style.display = "block";
+    } else {
+      freakScript.style.display = "none";
+    }
+  });
+
 document.querySelector(".frost").addEventListener("click", () => {
 
     let frostScript = document.querySelector(".frost-script")
@@ -416,6 +426,16 @@ document.querySelector(".tapir").addEventListener("click", () => {
       tempersScript.style.display = "block";
     } else {
       tempersScript.style.display = "none";
+    }
+  });
+
+  document.querySelector(".thee").addEventListener("click", () => {
+
+    let theeScript = document.querySelector(".thee-script")
+    if (theeScript.style.display === "none") {
+      theeScript.style.display = "block";
+    } else {
+      theeScript.style.display = "none";
     }
   });
 
