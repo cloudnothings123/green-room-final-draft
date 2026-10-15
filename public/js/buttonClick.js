@@ -100,7 +100,7 @@ document.querySelector(".disintegration").addEventListener("click", () => {
 
 document.querySelector(".dumbhead").addEventListener("click", () => {
 
-    let dumbheadScript = document.querySelector(".tempers-script")
+    let dumbheadScript = document.querySelector(".dumbhead-script")
     if (dumbheadScript.style.display === "none") {
       dumbheadScript.style.display = "block";
     } else {
