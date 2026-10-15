@@ -98,6 +98,16 @@ document.querySelector(".disintegration").addEventListener("click", () => {
     }
   });
 
+document.querySelector(".dumbhead").addEventListener("click", () => {
+
+    let dumbheadScript = document.querySelector(".tempers-script")
+    if (dumbheadScript.style.display === "none") {
+      dumbheadScript.style.display = "block";
+    } else {
+      dumbheadScript.style.display = "none";
+    }
+  });
+
 document.querySelector(".edging").addEventListener("click", () => {
 
     let edgingScript = document.querySelector(".edging-script")
