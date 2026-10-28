@@ -68,6 +68,16 @@ document.querySelector(".chastity").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".christian").addEventListener("click", () => {
+
+    let christianScript = document.querySelector(".christian-script")
+    if (christianScript.style.display === "none") {
+        christianScript.style.display = "block";
+    } else {
+        christianScript.style.display = "none";
+    }
+  });
+
   document.querySelector(".clap").addEventListener("click", () => {
 
     let clapScript = document.querySelector(".clap-script")
@@ -185,6 +195,26 @@ document.querySelector(".greg").addEventListener("click", () => {
         gregScript.style.display = "block";
     } else {
         gregScript.style.display = "none";
+    }
+  });
+
+document.querySelector(".hamilton").addEventListener("click", () => {
+
+    let hamiltonScript = document.querySelector(".hamilton-script")
+    if (hamiltonScript.style.display === "none") {
+      hamiltonScript.style.display = "block";
+    } else {
+      hamiltonScript.style.display = "none";
+    }
+  });
+
+document.querySelector(".ho99o9").addEventListener("click", () => {
+
+    let ho99o9Script = document.querySelector(".ho99o9-script")
+    if (ho99o9Script.style.display === "none") {
+      ho99o9Script.style.display = "block";
+    } else {
+      ho99o9Script.style.display = "none";
     }
   });
 
@@ -318,6 +348,16 @@ document.querySelector(".model").addEventListener("click", () => {
     }
   });
 
+  document.querySelector(".n8noface").addEventListener("click", () => {
+
+    let n8nofaceScript = document.querySelector(".n8noface-script")
+    if (n8nofaceScript.style.display === "none") {
+      n8nofaceScript.style.display = "block";
+    } else {
+      n8nofaceScript.style.display = "none";
+    }
+  });
+
 document.querySelector(".pup").addEventListener("click", () => {
 
     let pupScript = document.querySelector(".pup-script")
@@ -346,6 +386,16 @@ document.querySelector(".roller").addEventListener("click", () => {
       rollerScript.style.display = "block";
     } else {
       rollerScript.style.display = "none";
+    }
+  });
+
+document.querySelector(".rostam").addEventListener("click", () => {
+
+    let rostamScript = document.querySelector(".rostam-script")
+    if (rostamScript.style.display === "none") {
+      rostamScript.style.display = "block";
+    } else {
+      rostamScript.style.display = "none";
     }
   });
 
